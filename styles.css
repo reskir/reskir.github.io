@@ -10,11 +10,13 @@ body {
 	background:url('img/bart.png');
 	background-repeat: no-repeat;
 	background-position: bottom right;
+	overflow: hidden;
 }
 
 .container {
 	padding:10px 40px;
 	width:300px;
+	background: #fff;
 }
 
 .container .h1 {
