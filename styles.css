@@ -7,7 +7,7 @@ html,body {
 
 body {
 	font-family: 'PT Sans', Arial, sans-serif;
-	background:url('img/bart.png');
+	/*background:url('img/bart.png');*/
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	overflow: hidden;
@@ -27,3 +27,17 @@ body {
 	font-size:22px;
 	line-height: 1.5;
 }
+
+.stoner {
+    position: absolute;
+    background: url('img/stoner.png');
+    bottom: 0px;
+    right: 50px;
+    height: 264px;
+    width: 179px;
+    background-position: 0% 0%;
+}
+
+/*.stoner:hover {
+	background-position: 98.5% 0%;
+}*/
