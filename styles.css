@@ -11,16 +11,17 @@ body {
 	background-repeat: no-repeat;
 	background-position: bottom right;
 	overflow: hidden;
-}
+	background-color:#E45252;
+	}
 
 .container {
 	padding:10px 40px;
-	width:300px;
-	background: #fff;
+	width:350px;
+	color: #fff;
 }
 
 .container .h1 {
-	font-size:50px;
+	font-size:70px;
 }
 
 .container .p {
@@ -28,13 +29,17 @@ body {
 	line-height: 1.5;
 }
 
+.container a {
+	color:#fff;
+}
+
 .stoner {
     position: absolute;
-    background: url('img/stoner.png');
+    background: url('img/bart.png');
     bottom: 0px;
     right: 50px;
     height: 264px;
-    width: 179px;
+    width: 185px;
     background-position: 0% 0%;
 }
 
