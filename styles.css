@@ -33,16 +33,16 @@ body {
 	color:#fff;
 }
 
-.stoner {
+.bart {
     position: absolute;
-    background: url('img/bart.png');
+    background: url('img/bart_screw_white.svg');
+		background-position: 0% 0%;
     bottom: 0px;
     right: 50px;
-    height: 264px;
+    height: 255px;
     width: 185px;
-    background-position: 0% 0%;
 }
 
-/*.stoner:hover {
+/*.bart:hover {
 	background-position: 98.5% 0%;
 }*/
