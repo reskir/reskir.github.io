@@ -26,21 +26,24 @@
 
 	<div id="close" class="hidden"></div>
 
-	<div class="bart"></div>
+	<div class="bart" id="bart"></div>
 
 	<script>
 		var portfolio = document.getElementById('portfolio');
 		var iframe = document.getElementById('iframe');
 		var close = document.getElementById('close');
+		var bart = document.getElementById('bart');
 
 		portfolio.addEventListener('click',function(){
 			iframe.classList.toggle('hidden');
 			close.classList.toggle('hidden');
+			bart.classList.add('small');
 		});
 
 		close.addEventListener('click',function(){
 			iframe.classList.add('hidden');
 			close.classList.add('hidden');
+			bart.classList.remove('small');
 		})
 	</script>
 

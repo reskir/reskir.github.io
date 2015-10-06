@@ -35,6 +35,15 @@ body {
   right: 50px;
   height: 255px;
   width: 185px;
+	-moz-transition:right .6s ease;
+	-webkit-transition:right .6s ease;
+	transition:right .6s ease;
+}
+
+.small {
+		right: 10px;
+    height: 200px;
+    width: 145px;
 }
 .hidden {
   opacity: 0 !important;
