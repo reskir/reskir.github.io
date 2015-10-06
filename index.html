@@ -18,12 +18,34 @@
 
 		<p class="p"> If you want to work together on some interesting projects, do not hesitate to <a href="mailto:kiril.abashkin@gmail.com">write</a> me.</p>
 
-		<p class="p"> You can check my <a href="portfolio/?full#first">portfolio</a>.</p>
+		<p class="p"> You can check my <a id="portfolio" href="#">portfolio</a>.</p>
 
 	</div>
+	
+	<iframe src="http://reskir.github.io/portfolio" id="iframe" class="iframe hidden" frameborder="0"></iframe>
+
+	<div id="close" class="hidden">CLOSE</div>
 
 	<div class="bart"></div>
 
+	<script>
+		var portfolio = document.getElementById('portfolio');
+		var iframe = document.getElementById('iframe');
+		var close = document.getElementById('close');
+
+		portfolio.addEventListener('click',function(){
+			iframe.classList.toggle('hidden');
+			close.classList.toggle('hidden');
+		});
+
+		close.addEventListener('click',function(){
+			iframe.classList.add('hidden');
+			close.classList.add('hidden');
+		})
+	</script>
+
 </body>
+
+
 
 </html>
