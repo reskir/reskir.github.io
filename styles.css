@@ -76,6 +76,11 @@ body {
 
 }
 
+.link:active {
+  position:relative;
+  top:2px;
+}
+
 /*.bart:hover {
 	background-position: 98.5% 0%;
 }*/
