@@ -1,50 +1,150 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>UI/UX developer</title>
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link href="styles.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<div class="container">
+	<div class="wrapper" id="fullpage">
 
-		<h1 class="h1">Hello world</h1>
+		<section class="row hero section">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+				<h1 class="hero__message animate"> <span class="hero__building">Crafting</span> <span class="hero__meaning">meaningful</span> <span class="hero__change" id="hero__change">experience<span class="hero__red">*</span></span></h1>
+				<p class="col-lg-8 animate hero__explanation"><span class="hero__red">*</span> the knowledge or mastery of an event or subject gained through involvement in or exposure to it. </p>
+			</div>
+		</section>
 
-		<p class="p"> My name is Kiril and I like to craft nice things with <b>HTML/CSS/JS</b>.</p>
-		<p class="p"> At the moment I work at Adform as front-end developer in <b>UX/UI team</b>.</p>
+		<section class="row about section">
 
-		<p class="p"> If you want to work together on some interesting projects, do not hesitate to <a href="mailto:kiril.abashkin@gmail.com" class="link">write</a> me.</p>
+			<div class="col-xs-6">
+				<h1 class="animate about__title"> How can I help </h1>
 
-		<p class="p"> You can check my <a id="portfolio" class="link" href="#">portfolio</a>.</p>
+				<div class="col-xs-12 animate about__block">
+					<h2 class="link" id="interface">Interface</h2>
+					<p class="about__block--paragraph col-xs-6"> create interactive page with high quality and scalable front-end (user interface elements) </p>
+				</div>
+
+				<div class="col-xs-12 animate about__block">
+					<h2 class="link" id="ux">UX</h2>
+					<p class="about__block--paragraph col-xs-6"> prototype and wireframe your product, considering your business model and goals. </p>
+				</div>
+
+				<div class="col-xs-12 animate about__block">
+					<h2 class="link" id="development">Application development</h2>
+					<p class="about__block--paragraph col-xs-6">build robust, scalable and maintanable application</p>
+				</div>
+
+			</div>
+
+			<div class="col-xs-6">
+				<h1 class=>test</h1>
+				<div class="animate">
+					<img class="col-xs-12" src="images/evolve.png" alt="react">
+				</div>
+			</div>
+
+			<div id="interface" class="about__interface block hide">
+				<h1 class="about__title show">Interface</h1>
+				<p class="show">a point where two systems, subjects, organizations, etc. meet and interact.</p>
+			</div>
+
+			<div id="ux" class="about__ux hide block">
+				<h1 class="about__title show">UX</h1>
+			</div>
+
+			<div id="development" class="about__development hide block">
+				<h1 class="about__title show">Development</h1>
+			</div>
+
+			<button class="about__close hide"><img class="show" src="images/close.png"></button>
+
+		</section>
+
+		<section class="row clients section">
+
+			<div class="col-xs-12">
+				<h1 class="animate clients__title">Enjoy working with</h1>
+
+				<div class="row middle-xs">
+
+					<div class="col-xs-6 animate center-xs">
+						<img class="col-xs-4" src="images/nike_logo.png" alt="">
+					</div>
+
+					<div class="col-xs-6 animate center-xs">
+						<img class="col-xs-4" src="images/tagheuer.png" alt="">
+					</div>
+
+					<div class="col-xs-6 animate center-xs">
+						<img class="col-xs-4" src="images/adform_logo.png" alt="">
+					</div>
+
+				</div>
+
+
+			</div>
+		</section>
+
 
 	</div>
 
-	<iframe src="http://reskir.github.io/portfolio" id="iframe" class="iframe hidden" frameborder="0"></iframe>
+	<!-- <iframe src="http://reskir.github.io/portfolio" id="iframe" class="iframe hidden" frameborder="0"></iframe> -->
 
-	<div id="close" class="hidden"></div>
-
-	<div class="bart" id="bart"></div>
-
+	<script src="js/emergence.min.js"></script>
+	<script src="js/fullpage.min.js"></script>
 	<script>
-		var portfolio = document.getElementById('portfolio');
-		var iframe = document.getElementById('iframe');
-		var close = document.getElementById('close');
-		var bart = document.getElementById('bart');
+		(function() {
+			var close = document.querySelector('.about__close');
+			var aboutpages = document.querySelectorAll('.about .block');
+			var links = document.querySelectorAll('.about__block h2');
 
-		portfolio.addEventListener('click',function(){
-			iframe.classList.toggle('hidden');
-			close.classList.toggle('hidden');
-			bart.classList.add('small');
-		});
+			close.addEventListener('click', function(e) {
+				aboutpages.forEach(function(element, index) {
+					element.classList.add('hide');
+				});
+				this.classList.add('hide');
+			});
 
-		close.addEventListener('click',function(){
-			iframe.classList.add('hidden');
-			close.classList.add('hidden');
-			bart.classList.remove('small');
-		})
+			Array.from(links).forEach(function(element, index) {
+				element.addEventListener('click', function(e) {
+					close.classList.remove('hide');
+					e.preventDefault();
+					var current = e.target.id;
+					aboutpages.forEach(function(element, index) {
+						if(element.id === current) {
+							element.classList.remove('hide');
+						}
+					});
+				});
+
+			 fullpage.initialize('#fullpage');
+
+
+			});
+
+		})();
+
+
+		// var portfolio = document.getElementById('portfolio');
+		// var iframe = document.getElementById('iframe');
+		// var close = document.getElementById('close');
+		// var bart = document.getElementById('bart');
+		//
+		// portfolio.addEventListener('click',function(){
+		// 	iframe.classList.toggle('hidden');
+		// 	close.classList.toggle('hidden');
+		// 	bart.classList.add('small');
+		// });
+		//
+		// close.addEventListener('click',function(){
+		// 	iframe.classList.add('hidden');
+		// 	close.classList.add('hidden');
+		// 	bart.classList.remove('small');
+		// })
 	</script>
 
 </body>

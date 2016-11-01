@@ -1,0 +1,25 @@
+{
+  "name": "reskir.github.io",
+  "version": "1.0.0",
+  "description": "Kiril Abaskin 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reskir/reskir.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reskir/reskir.github.io/issues"
+  },
+  "homepage": "https://github.com/reskir/reskir.github.io#readme",
+  "devDependencies": {
+    "gulp-image": "^2.7.2",
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-imagemin": "^3.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}

@@ -1,0 +1,12 @@
+.animate {
+    transition: opacity 1s ease, transform 1.5s ease;
+    opacity: 0;
+    transform: translateX(40px);
+}
+
+.active {
+    .animate {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

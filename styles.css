@@ -6,16 +6,16 @@ html, body {
 }
 body {
   font-family: 'PT Sans', Arial, sans-serif;
-  /*background:url('img/bart.png');*/
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: top left;
   overflow: hidden;
-  background-color: #000;
+  background-size: cover;
+  background-image: url('img/bg.jpg');
 }
 .container {
   padding: 10px 40px;
   width: 350px;
-  color: #fff;
+  color: #404040;
 }
 .container .h1 {
   font-size: 70px;
@@ -25,7 +25,7 @@ body {
   line-height: 1.5;
 }
 .container a {
-  color: #fff;
+  color: #404040;
 }
 .bart {
   position: absolute;
@@ -79,6 +79,7 @@ body {
 .link:active {
   position:relative;
   top:2px;
+  color:blue;
 }
 
 /*.bart:hover {
