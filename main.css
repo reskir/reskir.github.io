@@ -645,10 +645,20 @@ section {
 
 .about {
   padding: 48px;
-  background: #f7f7fb;
+  background: #000;
+  color: #737373;
   position: relative; }
   .about__title {
-    font-size: 3.5em; }
+    font-size: 3.5em;
+    margin: 12px 0; }
+  .about__heromsg {
+    font-size: 2.2em; }
+    .about__heromsg .red {
+      color: red; }
+    .about__heromsg .yellow {
+      color: yellow; }
+    .about__heromsg .purple {
+      color: purple; }
   .about__development, .about__interface, .about__ux {
     position: absolute;
     width: 100%;
