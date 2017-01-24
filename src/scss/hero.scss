@@ -1,0 +1,14 @@
+.hero {
+  background-size: cover;
+  background-position: top left;
+  padding: 48px;
+  height: 100%;
+  
+  &__red {
+    color:#C62F24;
+  }
+
+  &__change {
+    transition: all 1s ease;
+  }
+}

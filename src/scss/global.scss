@@ -4,21 +4,20 @@ html {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-repeat: no-repeat;
 
 
   font-size: 16px;
   line-height: 1.5;
   color: #708781;
+  background:black;
+  margin:0;
 }
 
-p {
-font-family: 'Merriweather', serif;
-}
+p { }
 
 h1 {
   font-weight: 900;
@@ -34,7 +33,7 @@ h1 {
   text-decoration: underline;
   cursor: pointer;
 }
-section {
+.section {
   height: 100vh;
 }
 

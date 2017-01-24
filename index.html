@@ -20,28 +20,25 @@
 
 		<section class="row about section">
 
-			<div class="col-xs-6">
-				<h1 class="animate about__title"> How can I help </h1>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="animate"> How can I help</p>
 
-				<div class="col-xs-12 animate about__block">
-					<h2 class="link" id="interface">Interface</h2>
-					<p class="about__block--paragraph col-xs-6"> create interactive page with high quality and scalable front-end (user interface elements) </p>
+				<div class="animate about__block">
+					<h1 class="link about__title" id="interface">Interface</h1>
 				</div>
 
-				<div class="col-xs-12 animate about__block">
-					<h2 class="link" id="ux">UX</h2>
-					<p class="about__block--paragraph col-xs-6"> prototype and wireframe your product, considering your business model and goals. </p>
+				<div class="animate about__block">
+					<h1 class="link about__title" id="ux">UX</h1>
 				</div>
 
-				<div class="col-xs-12 animate about__block">
-					<h2 class="link" id="development">Application development</h2>
-					<p class="about__block--paragraph col-xs-6">build robust, scalable and maintanable application</p>
+				<div class="animate about__block">
+					<h1 class="link about__title" id="development">Development</h1>
 				</div>
 
 			</div>
 
-			<div class="col-xs-6">
-				<h1 class=>test</h1>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h1 class="animate">test</h1>
 				<div class="animate">
 					<img class="col-xs-12" src="images/evolve.png" alt="react">
 				</div>
@@ -54,6 +51,7 @@
 
 			<div id="ux" class="about__ux hide block">
 				<h1 class="about__title show">UX</h1>
+			    <p class="show"> creating scalable, interactive systems </p>
 			</div>
 
 			<div id="development" class="about__development hide block">
@@ -92,15 +90,13 @@
 
 	</div>
 
-	<!-- <iframe src="http://reskir.github.io/portfolio" id="iframe" class="iframe hidden" frameborder="0"></iframe> -->
-
 	<script src="js/emergence.min.js"></script>
 	<script src="js/fullpage.min.js"></script>
 	<script>
 		(function() {
 			var close = document.querySelector('.about__close');
 			var aboutpages = document.querySelectorAll('.about .block');
-			var links = document.querySelectorAll('.about__block h2');
+			var links = document.querySelectorAll('.about__block h1');
 
 			close.addEventListener('click', function(e) {
 				aboutpages.forEach(function(element, index) {
@@ -127,25 +123,9 @@
 			});
 
 		})();
-
-
-		// var portfolio = document.getElementById('portfolio');
-		// var iframe = document.getElementById('iframe');
-		// var close = document.getElementById('close');
-		// var bart = document.getElementById('bart');
-		//
-		// portfolio.addEventListener('click',function(){
-		// 	iframe.classList.toggle('hidden');
-		// 	close.classList.toggle('hidden');
-		// 	bart.classList.add('small');
-		// });
-		//
-		// close.addEventListener('click',function(){
-		// 	iframe.classList.add('hidden');
-		// 	close.classList.add('hidden');
-		// 	bart.classList.remove('small');
-		// })
 	</script>
+	<script src="https://use.typekit.net/bdm0csf.js"></script>
+ 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </body>
 
