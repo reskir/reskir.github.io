@@ -1,0 +1,54 @@
+.contact {
+    padding: 48px;
+    background: #2e2f33; //#f7f7fb;
+    color: #e4e4e4;
+    height: 100%;
+
+    &__header {
+
+    }
+
+    &__control {
+        position:relative;
+        display: flex;
+        justify-content: flex-start;
+        margin: 12px 0;
+    }
+
+    &__submit {
+        font-size: 1.2em;
+        font-family: 'Merriweather', serif;
+        background: transparent;
+        color: white;
+        padding: 12px;
+        border: 0px solid white;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    &__label {
+        position:absolute;
+        top: 3px;
+        left: 12px;
+        color: black;
+    }
+    &__input {
+        font-family: 'Merriweather', serif;
+        font-size: 1.2em;
+        padding: 12px;
+        border: 0;
+        border-bottom: 1px solid #48494e;
+        width:100%;
+        background: transparent;
+        color: #e4e4e4;
+
+        &--textarea {
+            font-size: 1em;
+            max-height: 150px;
+        }
+        &:focus {
+            outline:none;
+            border-color: #4ECDC4;
+        }
+    }
+}

@@ -4,7 +4,7 @@ html {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&subset=latin-ext');
 
 body {
  
@@ -48,6 +48,9 @@ h1 {
   height: 100vh;
 }
 
-.hide {
+.hidden {
   visibility: hidden;
+}
+.hide {
+  display: none;
 }
