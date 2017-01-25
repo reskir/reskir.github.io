@@ -1,0 +1,22 @@
+.work {
+	background: #FF6B6B;
+	background-repeat: no-repeat;
+    background-position: bottom right;
+	color: white;
+	height:100%;
+	padding: 48px;
+	&__logo {
+		margin: 24px 0px;
+		img {
+			margin: 12px;
+		}
+	}
+	&__blockquote {
+		font-size: 2.2em;
+		font-family: "Montserrat", sans-serif;
+		&--author {
+			font-family: 'Merriweather', serif;
+			font-size: 0.5em;
+		}
+	}
+}

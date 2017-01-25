@@ -1,14 +1,19 @@
 .hero {
   background-size: cover;
   background-position: top left;
-  padding: 48px;
   height: 100%;
+
+  &__inner {
+    padding: 48px;
+  }
   
   &__red {
     color:#C62F24;
+    font-weight: bold;
   }
 
   &__change {
     transition: all 1s ease;
   }
+
 }

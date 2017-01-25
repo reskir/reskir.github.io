@@ -1,12 +1,42 @@
 .about {
-    padding: 48px;
-    background: #f7f7fb;
+    padding: 12px 48px;
+    background: black; //#f7f7fb;
+    color:white;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     position: relative;
     height:100%;
 
+    &__desc {
+        line-height:2;
+    }
+
     &__title {
-        font-size: 5em;
-        margin: 12px 0;
+        margin: 12px 0 6px;
+    }
+
+    &__quote {
+        color: #4d4d4d;
+        cursor: default;
+        &:hover {
+            color: white;
+        }
+    }
+
+    &__link {
+        color:white;
+    }
+    &__list {
+        font-size: calc(16px + 1.5vw);
+        list-style: none;
+        margin: 24px 0 6px;
+        padding: 0;
+        color: #4d4d4d;
+        transition: color 1s ease;
+        cursor: default;
+        li:hover {
+            color: white;
+        }
     }
 
     &__development,
