@@ -3,52 +3,223 @@
 <head>
 	<meta charset="UTF-8">
 	<title>UI/UX developer</title>
-	<link href='//fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-
+		
 	<div class="container">
-
-		<h1 class="h1">Hello world</h1>
-
-		<p class="p"> My name is Kiril and I like to craft nice things with <b>HTML/CSS/JS</b>.</p>
-		<p class="p"> At the moment I work at Adform as front-end developer in <b>UX/UI team</b>.</p>
-
-		<p class="p"> If you want to work together on some interesting projects, do not hesitate to <a href="mailto:kiril.abashkin@gmail.com" class="link">write</a> me.</p>
-
-		<p class="p"> You can check my <a id="portfolio" class="link" href="#">portfolio</a>.</p>
-
+		<a href="https://www.linkedin.com/in/kiril-aba%C5%A1kin-34842137/">
+			<img class="logo" src="img/linkedin.svg" alt="linkedin">
+		</a>
 	</div>
-
-	<iframe src="//reskir.github.io/portfolio" id="iframe" class="iframe hidden" frameborder="0"></iframe>
-
-	<div id="close" class="hidden"></div>
-
-	<div class="bart" id="bart"></div>
-
-	<script>
-		var portfolio = document.getElementById('portfolio');
-		var iframe = document.getElementById('iframe');
-		var close = document.getElementById('close');
-		var bart = document.getElementById('bart');
-
-		portfolio.addEventListener('click',function(){
-			iframe.classList.toggle('hidden');
-			close.classList.toggle('hidden');
-			bart.classList.add('small');
-		});
-
-		close.addEventListener('click',function(){
-			iframe.classList.add('hidden');
-			close.classList.add('hidden');
-			bart.classList.remove('small');
-		})
-	</script>
-
+	<canvas id="canvas"></canvas>
 </body>
 
+<script>
+(function() {
+   var canvas = document.getElementById("canvas"),
+       ctx = canvas.getContext("2d"),
+      cw, ch;
 
+   var pi = Math.PI;
+
+   var friction = .96;
+
+   function random(min, max) {
+      return Math.random() * (max - min) + min;
+   }
+
+   ctx.fillWindow = function() {
+      cw = canvas.width = window.innerWidth;
+      ch = canvas.height = window.innerHeight;
+   }
+
+   ctx.background = function() {
+      this.fillStyle = "rgba(230,230,230,1)";
+      this.fillRect(0, 0, cw, ch);
+   }
+
+   var controls = {
+      up: false,
+      down: false,
+      left: false,
+      right: false
+   }
+
+   var blob = {
+      x: 0,
+      y: 0,
+      vx: 0,
+      vy: 0,
+      r: 50,
+      chunks: [],
+      color: "rgba(0,0,100,.4)"
+   }
+
+   blob.move = function() {
+      this.x += this.vx;
+      this.y += this.vy;
+
+      this.vx *= friction;
+      this.vy *= friction;
+
+      if (this.x < this.r) {
+         this.x = this.r;
+         this.vx *= -1;
+      }
+      if (this.x > cw - this.r) {
+         this.x = cw - this.r;
+         this.vx *= -1;
+      }
+      if (this.y < this.r) {
+         this.y = this.r;
+         this.vy *= -1;
+      }
+      if (this.y > ch - this.r) {
+         this.y = ch - this.r;
+         this.vy *= -1;
+      }
+
+      var acc = .5;
+      if (controls.up)
+         this.vy -= acc;
+      if (controls.down)
+         this.vy += acc;
+      if (controls.left)
+         this.vx -= acc;
+      if (controls.right)
+         this.vx += acc;
+
+      var chunk, dx, dy, dist_sqr, dist, angle;
+      for (var i = 0; i < this.chunks.length; i++) {
+         chunk = this.chunks[i];
+
+         dx = chunk.x - this.x;
+         dy = chunk.y - this.y;
+         dist_sqr = dx * dx + dy * dy;
+         dist = Math.sqrt(dist_sqr);
+         angle = Math.atan2(dy, dx);
+
+         chunk.vx -= .0001 * chunk.r * dist * Math.cos(angle)+random(-1,1);
+         chunk.vy -= .0001 * chunk.r * dist * Math.sin(angle)+random(-1,1);
+
+         chunk.x += chunk.vx;
+         chunk.y += chunk.vy;
+
+         chunk.vx *= friction;
+         chunk.vy *= friction;
+
+         //chunk.vy += 5;
+      }
+
+   }
+
+   blob.draw = function() {
+      /*
+      ctx.strokeStyle = this.color;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.r, 0, 2 * pi);
+      ctx.stroke();
+
+      ctx.fillStyle = this.color;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, 2, 0, 2 * pi);
+      ctx.fill();
+      */
+      ctx.shadowColor="rgb(0,0,250)";
+      ctx.shadowBlur=2;
+      var chunk;
+      for (var i = 0; i < this.chunks.length; i++) {
+         chunk = this.chunks[i];
+         ctx.fillStyle="rgba("+Math.round(100+155*(chunk.r/this.r))+",100,100,.5)";
+         ctx.beginPath();
+         ctx.arc(chunk.x, chunk.y, chunk.r, 0, 2 * pi);
+         ctx.fill();
+      }
+   }
+
+   var chunk = function(x, y, vx, vy, r) {
+      this.x = x;
+      this.y = y;
+      this.vx = vx;
+      this.vy = vy;
+      this.r = r;
+   }
+
+   function start() {
+      ctx.clearRect(0,0,cw,ch);
+      //ctx.background();
+
+      blob.draw();
+      blob.move();
+
+      window.requestAnimationFrame(start);
+   }
+
+   ctx.fillWindow();
+   blob.x = cw / 2;
+   blob.y = ch / 2;
+   for (var i = 0; i < 100; i++) {
+      blob.chunks.push(new chunk(blob.x, blob.y, 0, 0, random(2, blob.r)));
+   }
+   var min;
+   for(var i=0; i<blob.chunks.length; i++){
+      for(var j=i; j<blob.chunks.length; j++){
+         
+      }
+   }
+   start();
+
+   window.onresize = ctx.fillWindow;
+
+   window.onkeydown = function(e) {
+      // 37 --- LEFT
+      // 38 --- UP
+      // 39 --- RIGHT
+      // 40 --- DOWN      
+
+      switch (e.which) {
+         case 37:
+            controls.left = true;
+            break;
+         case 38:
+            controls.up = true;
+            break;
+         case 39:
+            controls.right = true;
+            break;
+         case 40:
+            controls.down = true;
+            break;
+         default:
+            console.log("not an arrow");
+      }
+
+      console.log("key: " + e.key + "\nkeyCode: " + e.which);
+      console.log(controls);
+   }
+
+   window.onkeyup = function(e) {
+      switch (e.which) {
+         case 37:
+            controls.left = false;
+            break;
+         case 38:
+            controls.up = false;
+            break;
+         case 39:
+            controls.right = false;
+            break;
+         case 40:
+            controls.down = false;
+            break;
+      }
+      console.log("keyup!!");
+      console.log(controls);
+   }
+
+	})();
+</script>
 
 </html>
