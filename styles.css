@@ -4,7 +4,9 @@ html, body {
   overflow: hidden;
 }
 body {
-   background:radial-gradient(#FFF,#BBB);
+
+  background: -webkit-radial-gradient(rgb(33, 35, 36), rgb(10, 10, 10));
+  background: radial-gradient(rgb(33, 35, 36), rgb(10, 10, 10));
 }
 
 .container {
@@ -24,17 +26,4 @@ body {
 
 .logo:hover {
   opacity: 0.8;
-}
-
-.bart {
-  position: absolute;
-  background: url('img/bart_screw_white.svg');
-  background-position: 0% 0%;
-  bottom: 0px;
-  right: 50px;
-  height: 255px;
-  width: 185px;
-	-moz-transition:right .3s ease;
-	-webkit-transition:right .3s ease;
-	transition:right .3s ease;
 }
