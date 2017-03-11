@@ -1,3 +1,1 @@
-### My personal web site with portfolio
-
-Kiril Abaskin 2015
+[reskir.github.io](https://www.github.com/reskir)
