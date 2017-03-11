@@ -1,11 +1,11 @@
+$size-medium: 24px;
+
 html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 body {
-
-  background: -webkit-radial-gradient(rgb(33, 35, 36), rgb(10, 10, 10));
   background: radial-gradient(rgb(33, 35, 36), rgb(10, 10, 10));
 }
 
@@ -21,10 +21,10 @@ body {
 }
 
 .pl {
-  padding-left: 24px;
+  padding-left: $size-medium;
 }
 .ml-b {
-  margin-left: 24px;
+  margin-left: $size-medium;
 }
 
 .logo {
