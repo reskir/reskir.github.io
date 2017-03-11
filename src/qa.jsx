@@ -99,8 +99,7 @@ export default class Qa extends React.Component {
 								</tbody>
 							</table>
 								I also enjoy working with creative/marketing projects, 
-								such as presentational pages or interactive banners. 
-								 <a href="//localhost:8888/#contact">Contact</a> me for more information.
+								such as presentational pages or interactive banners. <a href="//localhost:8888/#contact">Contact</a> me for more information.
 						</div>
 					</div>
 				</div>

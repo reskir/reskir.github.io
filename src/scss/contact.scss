@@ -42,6 +42,12 @@
         background: transparent;
         color: #e4e4e4;
 
+        &--select {
+            option {
+                background: black;
+            }
+        }
+
         &--textarea {
             font-size: 1em;
             max-height: 150px;

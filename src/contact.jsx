@@ -31,7 +31,8 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-			<div className={ 'contact '} >
+			<div className='contact'>
+
 					<div className="row">
 						<h1 className="animate col-lg-12 contact__header"> Let's create something together</h1>
 					</div>
@@ -51,8 +52,8 @@ export default class Contact extends React.Component {
 						</div>
 
 						<div className="col-lg-10 col-xs-12 contact__control animate">
-							<select className="contact__input" id="budget" value={ this.state.budget } onChange={ this.handleInputChange }>
-								<option value="0">Estimated budget</option>
+							<select className="contact__input contact__input--select" placeholder="Estimated budget" id="budget" value={ this.state.budget } onChange={ this.handleInputChange }>
+								<option value="0" disabled>Estimated budget</option>
 								<option value="$1500 - 2000">$1500 - 2000</option>
 								<option value="$2000 - 2500">$2000 - 2500</option>
 								<option value="$2500 - 5000">$2500 - 5000</option>
@@ -66,6 +67,7 @@ export default class Contact extends React.Component {
 						<div className="col-lg-10 animate contact__control">
 							<button className="contact__submit" type="submit"> Send request </button>
 						</div>
+
 					</form>
 			</div>
     )
