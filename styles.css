@@ -20,8 +20,16 @@ body {
     height: 90%;
 }
 
+.pl {
+  padding-left: 24px;
+}
+.ml-b {
+  margin-left: 24px;
+}
+
 .logo {
-  width: 36px;
+  user-select: none;
+  width: 24px;
 }
 
 .logo:hover {
