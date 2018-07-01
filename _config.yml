@@ -34,6 +34,16 @@ plugins:
 compression: false # true on JEKYLL_ENV=production
 source_maps: false # false on JEKYLL_ENV=production
 assets:
+  plugins:
+    img:
+      optim:
+        verbose: true
+        nice: 2
+        pngout: true
+        advpng:
+          level: 2
+        optipng:
+          level: 1
   source_maps: true # false on JEKYLL_ENV=production
   destination: "/assets"
   compression: true # true on JEKYLL_ENV=production
@@ -65,12 +75,6 @@ assets:
     baseurl: true
     destination: false
     url: null
-  # --
-  # These are all default. No need to add them
-  #   Only use this if you have more.
-  # --
-  sources:
-    - assets/
 
 
 # Exclude from processing.

@@ -6,4 +6,4 @@ layout: home
 ---
 
   <div id="root"></div>
-  {% asset main.js @inline %}
+  {% asset main.js %}
