@@ -10,4 +10,4 @@ deploy:
   local-dir: _site
   target-branch: master
   on:
-    branch: master
+    branch: develop
