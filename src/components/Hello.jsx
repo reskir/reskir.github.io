@@ -9,7 +9,7 @@ class Hello extends Component {
           I am Kiril Abaskin, javascript developer located in Vilnius 🇱🇹, but
           available for working around 🌎 🌏 🌍.<br /> <br />
           I like to build modern web applications with <strong>node</strong>, <strong>react</strong>, <strong>relay</strong>{" "}
-          & <strong>graphql</strong> & <strong>☕️</strong>.
+          & <strong>graphql</strong> & <strong>☕️/🍺</strong>.
         </p>
       </React.Fragment>
     );

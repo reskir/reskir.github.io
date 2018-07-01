@@ -6,4 +6,4 @@ layout: home
 ---
 
   <div id="root"></div>
-  <script type="text/javascript" src="/assets/javascripts/main.js" charset="utf-8"></script>
+  {% asset main.js @inline %}

@@ -19,3 +19,6 @@ permalink: /about/
 </table>
 
 Here I will write something about my self.
+
+  <div id="root"></div>
+  {% asset about.js %}
