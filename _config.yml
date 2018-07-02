@@ -30,8 +30,8 @@ plugins:
   - jekyll-feed
   - jekyll-assets
 
-compression: false # true on JEKYLL_ENV=production
-source_maps: false # false on JEKYLL_ENV=production
+compression: true # true on JEKYLL_ENV=production
+source_maps: true # false on JEKYLL_ENV=production
 assets:
   plugins:
     img:
@@ -45,8 +45,8 @@ assets:
           level: 1
   source_maps: true # false on JEKYLL_ENV=production
   destination: "/assets"
-  compression: false # true on JEKYLL_ENV=production
-  gzip: false # true on JEKYLL_ENV=production
+  compression: true # true on JEKYLL_ENV=production
+  gzip: true # true on JEKYLL_ENV=production
   defaults:
     js: { integrity: false } # true on JEKYLL_ENV=production
     css: { integrity: false } # true on JEKYLL_ENV=production
