@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: reskir - software developer
-email: your-email@example.com
+title: reskir
+email: kiril.abashkin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Frontend engineer from Vilnius, LTU.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,6 +22,7 @@ url: "https://reskir.github.io" # the base hostname & protocol for your site, e.
 github_username:  reskir
 linkedin_username: kiril-abaškin-34842137
 logo: "logo"
+permalink: /:year/:month/:day/:title:output_ext
 # Build settings
 markdown: kramdown
 theme: minima
@@ -44,8 +45,8 @@ assets:
           level: 1
   source_maps: true # false on JEKYLL_ENV=production
   destination: "/assets"
-  compression: true # true on JEKYLL_ENV=production
-  gzip: true
+  compression: false # true on JEKYLL_ENV=production
+  gzip: false # true on JEKYLL_ENV=production
   defaults:
     js: { integrity: false } # true on JEKYLL_ENV=production
     css: { integrity: false } # true on JEKYLL_ENV=production
