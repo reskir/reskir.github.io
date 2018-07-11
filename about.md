@@ -4,7 +4,45 @@ title: About
 permalink: /about/
 ---
 
-Here I will write something about my self, later.
+### Start of web development
+
+I started coding on my second year of bachelor studies in Vilnius University. It were small projects for local business, usually I was creating design and develop project on wordpress. It was good experience because I was responsible almost for everything — dealing with client, creating/collecting assets, meeting marketing goals and deliver product.
+
+### Online advertising and UX
+
+By the end of the studies I started working in <a href="https://adform.com">Adform</a> (danish online advertising company). During my first year in adform I was creating online HTML5 ads for mobile/desktop, I crafted ads for main European publishers such as SKY, Aftonbladet and TheGuardian.
+
+The next year I started working in UX team in the same company, it was issue to create consistent and maintainable UI among 20 products and always keep it up to date. During that time our team implemented style guide driven development methodology which utilized our UI library.
+
+### Single page application development
+
+In spring 2017 I joined 1stdibs team in Vilnius, where I work now. At 1stdibs by now I had pleasure working on mobile web version of platform and implementing localization.
+
+### Tools and technologies I'm working with
+
+
+{% asset tools.png %}
+
+<table>
+    <tr>
+        <td>React</td>
+    </tr>
+    <tr>
+        <td>Relay</td>
+    </tr>
+    <tr>
+        <td>GraphQL</td>
+    </tr>
+    <tr>
+        <td>NodeJS</td>
+    </tr>
+    <tr>
+        <td>Express</td>
+    </tr>
+    <tr>
+        <td>Webpack</td>
+    </tr>
+</table>
 
 <div id="root"></div>
 {% asset about.js @inline %}

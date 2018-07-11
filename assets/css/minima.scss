@@ -1,74 +1,64 @@
 @charset "utf-8";
 
-@font-face{
-  font-family: 'Fira Code';
-  src: asset_url('eot/FiraCode-Light.eot');
-  src: asset_url('eot/FiraCode-Light.eot') format('embedded-opentype'),
-       asset_url('woff2/FiraCode-Light.woff2') format('woff2'),
-       asset_url('woff/FiraCode-Light.woff') format('woff'),
-       asset_url('ttf/FiraCode-Light.ttf') format('truetype');
+@font-face {
+  font-family: Brandon Text;
+  src: asset_url("woff2/BrandonText-Light.woff2") format("woff2"),
+    asset_url("woff/BrandonText-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'Fira Code';
-  src: asset_url('eot/FiraCode-Regular.eot');
-  src: asset_url('eot/FiraCode-Regular.eot') format('embedded-opentype'),
-       asset_url('woff2/FiraCode-Regular.woff2') format('woff2'),
-       asset_url('woff/FiraCode-Regular.woff') format('woff'),
-       asset_url('ttf/FiraCode-Regular.ttf') format('truetype');
+@font-face {
+  font-family: Brandon Text;
+  src: asset_url("woff2/BrandonText-Regular.woff2") format("woff2"),
+    asset_url("woff/BrandonText-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'Fira Code';
-  src: asset_url('eot/FiraCode-Medium.eot');
-  src: asset_url('eot/FiraCode-Medium.eot') format('embedded-opentype'),
-       asset_url('woff2/FiraCode-Medium.woff2') format('woff2'),
-       asset_url('woff/FiraCode-Medium.woff') format('woff'),
-       asset_url('ttf/FiraCode-Medium.ttf') format('truetype');
+@font-face {
+  font-family: Brandon Text;
+  src: asset_url("woff2/BrandonText-Medium.woff2") format("woff2"),
+      asset_url("woff/BrandonText-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'Fira Code';
-  src: asset_url('eot/FiraCode-Bold.eot');
-  src: asset_url('eot/FiraCode-Bold.eot') format('embedded-opentype'),
-       asset_url('woff2/FiraCode-Bold.woff2') format('woff2'),
-       asset_url('woff/FiraCode-Bold.woff') format('woff'),
-       asset_url('ttf/FiraCode-Bold.ttf') format('truetype');
+@font-face {
+  font-family: Brandon Text;
+  src: asset_url("woff2/BrandonText-Bold.woff2") format("woff2"),
+       asset_url("woff/BrandonText-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 // Define defaults for each variable.
 
-$base-font-family: "Fira Code", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-$base-font-size:   16px !default;
+$base-font-family: "Brandon Text", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol" !default;
+$base-font-size: 16px !default;
 $base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
+$small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit: 30px !default;
 
-$text-color:       #111 !default;
+$text-color: #333 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color: #2a7ae2 !default;
 
-$grey-color:       #828282 !default;
+$grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color-dark: darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width: 800px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -88,9 +78,5 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-@import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting",
-  "minima/about"
-;
+@import "minima/base", "minima/layout", "minima/syntax-highlighting",
+  "minima/about", "minima/helpers";
