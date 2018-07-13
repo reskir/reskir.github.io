@@ -54,7 +54,7 @@ assets:
   caching:
     path: ".jekyll-cache/assets"
     type: file # Possible values: memory, file
-    enabled: false
+    enabled: true
   # --
   # Assets you wish to always have compiled.
   #   This can also be combined with raw_precompile which
