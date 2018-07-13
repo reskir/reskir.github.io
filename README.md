@@ -1,1 +1,1 @@
-[reskir.github.io](https://www.reskir.github.io)
+[reskir.github.io](https://reskir.github.io)
