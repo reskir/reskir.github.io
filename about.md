@@ -12,7 +12,7 @@ I started coding on my second year of bachelor studies in Vilnius University. It
 
 By the end of the studies I started working in <a href="https://adform.com">Adform</a> (danish online advertising company). During my first year in adform I was creating online HTML5 ads for mobile/desktop, I crafted ads for main European publishers such as SKY, Aftonbladet and TheGuardian.
 
-The next year I started working in UX team in the same company, it was issue to create consistent and maintainable UI among 20 products and always keep it up to date. During that time our team implemented style guide driven development methodology which utilized our UI library.
+The next year I started working in UX team in the same company, our team was chalenged to create consistent and maintainable user interface among 20 products and always keep it up to date. During that time our team implemented style guide driven development methodology which utilized our UI library.
 
 ### Single page application development
 

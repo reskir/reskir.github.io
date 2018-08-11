@@ -1,4 +1,4 @@
-const tailwindcss = require('tailwindcss');
+const tailwindcss = require("tailwindcss");
 
 module.exports = {
   // webpack folder's entry js - excluded from jekll's build process.
