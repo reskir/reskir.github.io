@@ -2,6 +2,7 @@ language: ruby
 rvm:
 - 2.4  
 script: "bundle exec jekyll build"
+cache: bundler
 deploy:
   provider: pages
   skip-cleanup: true
