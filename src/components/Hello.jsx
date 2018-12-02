@@ -6,9 +6,7 @@ class Hello extends Component {
       <React.Fragment>
         <p className="text-secondary">Hello there!</p>
         <p className="about-me">
-          Welcome to my page. I am frontend developer with focus on design,
-          performance and maintainability. I like building products from scratch
-          using modern web development tools.
+          My name is Kiril Abaskin (Kiril Abaškin), I am frontend engineer.
         </p>
         <p className="text-secondary">Some random facts</p>
         <ul>
