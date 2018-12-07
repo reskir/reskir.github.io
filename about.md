@@ -23,7 +23,7 @@ In spring 2017 I joined 1stdibs team in Vilnius, where I work now. At 1stdibs by
 
 {% asset tools.png %}
 
-<table>
+<!-- <table>
     <tr>
         <td>React</td>
     </tr>
@@ -42,7 +42,7 @@ In spring 2017 I joined 1stdibs team in Vilnius, where I work now. At 1stdibs by
     <tr>
         <td>Webpack</td>
     </tr>
-</table>
+</table> -->
 
 <div id="root"></div>
 {% asset about.js @inline %}
