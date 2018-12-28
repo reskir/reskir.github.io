@@ -1,8 +1,9 @@
 <header role="header">
   <div class="site-header wrapper">
-    <div class="site-title">
-        <a class="site-title-link" href="{{ site.url | relative_url }}">👨‍💻 {{site.title}}</a>
-    </div>
+    <a class="site-title-link" href="{{ site.url | relative_url }}">
+        <span class="site-title">👨‍💻 {{site.title}}</span>
+        <p>{{site.description}}</p>
+    </a>
     {%- include navigation.html -%}
   </div>
 </header>
