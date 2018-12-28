@@ -1,8 +1,3 @@
 .about-me {
-    font-size: 1.4em;
-    font-weight: bold;
-
-    @include media-query($on-palm) {
-        font-size: 1.2em;
-    }
+    color: #333;
 }

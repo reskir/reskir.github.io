@@ -19,7 +19,7 @@
 @font-face {
   font-family: Brandon Text;
   src: asset_url("woff2/BrandonText-Medium.woff2") format("woff2"),
-      asset_url("woff/BrandonText-Medium.woff") format("woff");
+    asset_url("woff/BrandonText-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -27,7 +27,7 @@
 @font-face {
   font-family: Brandon Text;
   src: asset_url("woff2/BrandonText-Bold.woff2") format("woff2"),
-       asset_url("woff/BrandonText-Bold.woff") format("woff");
+    asset_url("woff/BrandonText-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -45,9 +45,9 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
 
-$text-color: #0bb5c3 !default;
-$background-color: #2a2a43 !default;
-$brand-color: #2a7ae2 !default;
+$text-color: #333; //#0bb5c3 !default;
+$background-color: #ffffff !default;
+$brand-color: #0bb5c3 !default;
 
 $grey-color: #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -81,6 +81,3 @@ $on-laptop: 800px !default;
 // Import partials.
 @import "minima/base", "minima/layout", "minima/syntax-highlighting",
   "minima/_about", "minima/helpers";
-
-
-

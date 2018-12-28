@@ -21,10 +21,10 @@ In spring 2017 I joined 1stdibs team in Vilnius, where I work now. At 1stdibs by
 
 ### Experience
 
-- Build HTML5 ads for main UK, Spain, Scandinavian and Lithuanian publishers and brands: Sky, Aftonbladet, TheGuardian <span class="c-w">@Adform</span>
-- Created and maintained with team of developers UI library for around 23 internal products <span class="c-w">@Adform</span>
-- Developed mobile version of single page application for products page <span class="c-w"> @1stdibs.com</span>
-- Worked on creating internationalized version of platform <span class="c-w">@1stdibs.com</span>
+- Build HTML5 ads for main UK, Spain, Scandinavian and Lithuanian publishers and brands: Sky, Aftonbladet, TheGuardian <a href="https://adform.com">@Adform</a>
+- Created and maintained with team of developers UI library for around 23 internal products <a href="https://adform.com">@Adform</a>
+- Developed mobile version of single page application for products page <a href="https://adform.com">@Adform</a>
+- Worked on creating internationalized version of platform <a href="https://1stdibs.com">@1stdibs</a>
 
 ### Tools and technologies I'm working with
 
