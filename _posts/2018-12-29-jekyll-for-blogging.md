@@ -8,7 +8,7 @@ categories: jekyll blog howto
 
 {% asset jekyll-logo.png width="150" %}
 
-My experience with jekyll started with simple blog about urbanism and city development (<a href="//urbanistas.lt">https://uranistas.lt</a>). You can find all source files on github <a href="https://github.com/reskir/urban_blog">github project page</a>.
+My experience with jekyll started with simple blog about urbanism and city development (<a href="//urbanistas.lt">https://urbanistas.lt</a>). You can find all source files on github <a href="https://github.com/reskir/urban_blog">github project page</a>.
 
 #### Perks of using Jekyll for your projects:
 
