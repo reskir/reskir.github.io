@@ -1,6 +1,7 @@
 ---
 layout: home
 exclude: true
+description: Hello, I am Kiril Abaskin, Frontend developer from Lithuania, Vilnius
 ---
 
 <p class="about-me">

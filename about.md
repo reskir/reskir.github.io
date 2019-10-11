@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: Front-end developer from Vilnius, Lithuania. Passioned with clean code and pure functions which solves issue and problems.
 ---
 
 <!-- ### Start of web development
