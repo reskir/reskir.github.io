@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "image_optim_pack"
   gem "jekyll-responsive-image"
   gem "mini_magick"
+  gem "rmagick"
 end
 
 # # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
