@@ -5,6 +5,7 @@ script: 'bundle exec jekyll build'
 cache: bundler
 os: osx
 deploy:
+    skip_cleanup: true
     strategy: git
     provider: pages
     token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
