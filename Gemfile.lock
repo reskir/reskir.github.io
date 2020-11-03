@@ -145,7 +145,7 @@ DEPENDENCIES
   jekyll-seo-tag
   mini_magick
   minima (~> 2.0)
-  rmagick
+  rmagick (~> 4.1.2)
   sprockets (~> 3.7)
 
 BUNDLED WITH

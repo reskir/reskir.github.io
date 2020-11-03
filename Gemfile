@@ -18,6 +18,7 @@ gem "minima", "~> 2.0"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
+gem "rmagick", "~> 4.1.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -27,7 +28,6 @@ group :jekyll_plugins do
   gem "image_optim", "~> 0.26"
   gem "image_optim_pack"
   gem "mini_magick"
-  gem "rmagick"
 end
 
 # # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
