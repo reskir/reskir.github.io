@@ -3,7 +3,7 @@ rvm:
     - 2.7.2
 script: 'bundle exec jekyll build'
 cache: bundler
-os: osx
+os: linux
 deploy:
     provider: pages
     token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
