@@ -3,7 +3,6 @@ rvm:
     - 2.7.2
 script: 'bundle exec jekyll build'
 cache: bundler
-os: osx
 deploy:
     strategy: git
     provider: pages
