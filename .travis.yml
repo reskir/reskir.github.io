@@ -4,10 +4,10 @@ rvm:
 script: 'bundle exec jekyll build'
 cache: bundler
 os: osx
+stategy: git
 deploy:
-    skip_cleanup: true
     provider: pages
-    github_token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
+    token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
     keep_history: true
     local_dir: _site
     target_branch: master
