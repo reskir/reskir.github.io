@@ -142,7 +142,6 @@ DEPENDENCIES
   jekyll-seo-tag
   mini_magick
   minima (~> 2.0)
-  sprockets (~> 3.7)
   tzinfo-data
 
 BUNDLED WITH

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: Brandon Text;
+    font-family: 'Brandon Text';
     src: asset_url('woff2/BrandonText-Light.woff2') format('woff2'),
         asset_url('woff/BrandonText-Light.woff') format('woff');
     font-weight: 300;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: Brandon Text;
+    font-family: 'Brandon Text';
     src: asset_url('woff2/BrandonText-Regular.woff2') format('woff2'),
         asset_url('woff/BrandonText-Regular.woff') format('woff');
     font-weight: 400;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: Brandon Text;
+    font-family: 'Brandon Text';
     src: asset_url('woff2/BrandonText-Medium.woff2') format('woff2'),
         asset_url('woff/BrandonText-Medium.woff') format('woff');
     font-weight: 500;
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: Brandon Text;
+    font-family: 'Brandon Text';
     src: asset_url('woff2/BrandonText-Bold.woff2') format('woff2'),
         asset_url('woff/BrandonText-Bold.woff') format('woff');
     font-weight: 700;
