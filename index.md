@@ -5,7 +5,7 @@ description: Hello, I am Kiril Abaskin, Frontend developer from Lithuania, Vilni
 ---
 
 <p class="about-me">
-  Hi there, my name is Kiril Abaškin (/Abaʃkin/), I am javascript developer from Lithuania.
+  Hi there, my name is Kiril Abaskin, I am javascript developer from Lithuania.
 </p>
 
 <p class="about-me">

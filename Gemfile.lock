@@ -34,6 +34,9 @@ GEM
     image_optim_pack (0.6.0.20201024)
       fspath (>= 2.1, < 4)
       image_optim (~> 0.19)
+    image_optim_pack (0.6.0.20201024-x86_64-darwin)
+      fspath (>= 2.1, < 4)
+      image_optim (~> 0.19)
     image_size (2.1.0)
     in_threads (1.5.4)
     jekyll (3.8.7)
@@ -113,6 +116,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   image_optim (~> 0.26)
