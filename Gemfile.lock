@@ -32,6 +32,7 @@ GEM
     http_parser.rb (0.6.0-java)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
+    image_magick (0.1.9)
     image_optim (0.27.1)
       exifr (~> 1.2, >= 1.2.2)
       fspath (~> 3.0)
@@ -137,6 +138,7 @@ PLATFORMS
   x86_64-darwin-19
 
 DEPENDENCIES
+  image_magick
   image_optim (~> 0.26)
   image_optim_pack
   jekyll (~> 3.8.5)
