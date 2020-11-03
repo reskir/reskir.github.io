@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "image_optim", "~> 0.26"
   gem "image_optim_pack"
+  gem "jekyll-imagemagick"
   gem "mini_magick"
 end
 
