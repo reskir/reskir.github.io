@@ -3,7 +3,7 @@ layout: post
 title: 'How I use Jekyll'
 description: My experience with jekyll blogging platform and github pages
 date: 2018-12-29 09:15:15 +0300
-categories: jekyll blog howto
+categories: blog
 ---
 
 {% asset jekyll-logo.png width="150" %}
