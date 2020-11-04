@@ -6,7 +6,7 @@ categories: project
 ---
 
 <div class="alignCenter">
-{% asset telegram_bot.png width=300 @magick:format='.webp' %}
+{% asset telegram_bot.png width=300 magick:format='.webp' %}
 </div>
 <br />
 Telegram bot is registring bad parkers and sends data to local POLICE department.
