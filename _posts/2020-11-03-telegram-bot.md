@@ -9,4 +9,4 @@ categories: project
     {% asset telegram_bot.png %}
 </div>
 <br />
-Telegram bot is registring bad parkers and sends data to local POLICE department.
+Telegram bot registers bad parkers and sends data to local POLICE department.
