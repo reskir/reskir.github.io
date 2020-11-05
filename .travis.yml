@@ -1,16 +1,18 @@
-# language: ruby
-# rvm:
-#     - 2.7.2
-# script: 'bundle exec jekyll build'
-# cache: bundler
-# os: osx
-# deploy:
-#     strategy: git
-#     provider: pages
-#     skip_cleanup: true
-#     token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
-#     keep_history: true
-#     local_dir: _site
-#     target_branch: master
-#     on:
-#         branch: develop
+language: ruby
+rvm:
+    - 2.7.2
+before_script:
+    - pecl install imagick
+script: 'bundle exec jekyll build'
+cache: bundler
+os: osx
+deploy:
+    strategy: git
+    provider: pages
+    skip_cleanup: true
+    token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
+    keep_history: true
+    local_dir: _site
+    target_branch: master
+    on:
+        branch: develop
