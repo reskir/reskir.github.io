@@ -23,6 +23,7 @@ gem "kramdown-parser-gfm"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "liquid"
   gem "jekyll-assets"
   gem "jekyll-seo-tag"
   gem "mini_magick", "~> 4.8"
