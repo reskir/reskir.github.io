@@ -9,7 +9,16 @@ jobs:
     github-pages:
         runs-on: ubuntu-16.04
         steps:
-            - uses: actions/checkout@v2
-            - uses: limjh16/jekyll-action-ts@v2
-              env:
-                  JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+            - name: setup
+                uses: actions/checkout@v2
+            - name: 💎 setup ruby
+                uses: ruby/setup-ruby@v1
+                with:
+                    ruby-version: 2.7.2 # can change this to 2.7 or whatever version you prefer
+            - name: 🔨 install dependencies & build site
+                uses: limjh16/jekyll-action-ts@v2
+            - name: 🚀 deploy
+                uses: peaceiris/actions-gh-pages@v3
+                with:
+                    github_token: ${{ secrets.JEKYLL_PAT }}
+                    publish_dir: ./_site
