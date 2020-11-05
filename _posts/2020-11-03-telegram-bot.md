@@ -6,7 +6,7 @@ categories: project
 ---
 
 <div class="alignCenter">
-{% asset telegram_bot.png %}
+    {% asset telegram_bot.png %}
 </div>
 <br />
 Telegram bot is registring bad parkers and sends data to local POLICE department.
