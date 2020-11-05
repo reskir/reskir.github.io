@@ -6,6 +6,7 @@ before_script:
 script: 'bundle exec jekyll build'
 cache: bundler
 os: linux
+dist: focal
 deploy:
     strategy: git
     provider: pages
