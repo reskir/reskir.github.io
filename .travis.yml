@@ -5,7 +5,7 @@ before_script:
     - brew install imagemagick
 script: 'bundle exec jekyll build'
 cache: bundler
-os: macos
+os: osx
 deploy:
     strategy: git
     provider: pages
