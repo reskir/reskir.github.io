@@ -128,7 +128,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-seo-tag
   kramdown-parser-gfm
-  liquid
   mini_magick (~> 4.8)
   minima (~> 2.0)
   sprockets (~> 3.7)

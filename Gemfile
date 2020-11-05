@@ -10,7 +10,6 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 3.9"
 
-gem "sprockets", "~> 3.7"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
@@ -23,8 +22,8 @@ gem "kramdown-parser-gfm"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem "liquid"
   gem "jekyll-assets"
+  gem "sprockets", "~> 3.7"
   gem "jekyll-seo-tag"
   gem "mini_magick", "~> 4.8"
 end
