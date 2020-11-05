@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://reskir.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://reskir.github.io/" rel="alternate" type="text/html" /><updated>2020-11-05T07:20:20+00:00</updated><id>https://reskir.github.io/feed.xml</id><title type="html">Kiril Abaškin</title><subtitle>frontend software engineer</subtitle><entry><title type="html">Reporting bad parkers with telegram bot</title><link href="https://reskir.github.io/2020/11/03/telegram-bot.html" rel="alternate" type="text/html" title="Reporting bad parkers with telegram bot" /><published>2020-11-03T07:00:00+00:00</published><updated>2020-11-03T07:00:00+00:00</updated><id>https://reskir.github.io/2020/11/03/telegram-bot</id><content type="html" xml:base="https://reskir.github.io/2020/11/03/telegram-bot.html">&lt;div class=&quot;alignCenter&quot;&gt;
+    &lt;img src=&quot;/assets/telegram_bot-0c64e4463ccd3009cbf59e8bee5e1c957082cbd0e19672f7fc0ba4630f257b8f.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Telegram bot registers bad parkers and sends data to local POLICE department.&lt;/p&gt;</content><author><name></name></author><category term="project" /><summary type="html">Telegram bot registers bad parkers and sends data to local POLICE department.</summary></entry><entry><title type="html">How I use Jekyll</title><link href="https://reskir.github.io/2018/12/29/jekyll-for-blogging.html" rel="alternate" type="text/html" title="How I use Jekyll" /><published>2018-12-29T06:15:15+00:00</published><updated>2018-12-29T06:15:15+00:00</updated><id>https://reskir.github.io/2018/12/29/jekyll-for-blogging</id><content type="html" xml:base="https://reskir.github.io/2018/12/29/jekyll-for-blogging.html">&lt;p&gt;&lt;img width=&quot;150&quot; src=&quot;/assets/jekyll-logo-b3c1ec4d30dc8f0af93274e8781d760a1f4c93c1aee292667e791cd548f3c329.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My experience with jekyll started with simple blog about urbanism and city development (&lt;a href=&quot;//urbanistas.lt&quot;&gt;https://urbanistas.lt&lt;/a&gt;). You can find all source files on github &lt;a href=&quot;https://github.com/reskir/urban_blog&quot;&gt;github project page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;perks-of-using-jekyll-for-your-projects&quot;&gt;Perks of using Jekyll for your projects:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No backend/databases&lt;/strong&gt; (yes, I consider this as pros).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Static files&lt;/strong&gt;, all you need is html + css and sometimes some simple javascript logic (for slider f.ex.);&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; - it is easy to document and write posts&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plugins&lt;/strong&gt; - jekyll has some awesome plugins for SEO, asset management and etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hosting&lt;/strong&gt; - it is easy to host, even github pages can host jekyll website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;what-packages-and-tools-i-am-using&quot;&gt;What packages and tools I am using&lt;/h4&gt;
+
+&lt;p&gt;For my blogs I usually reuse the same plugins, the most useful I found are these:&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jekyll-assets&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;jekyll-seo-tag&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_optim&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;image_optim_pack&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;mini_magick&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="blog" /><summary type="html"></summary></entry></feed>

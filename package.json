@@ -1,0 +1,21 @@
+{
+    "name": "reskir.github.io",
+    "version": "1.0.0",
+    "description": "[reskir.github.io](https://www.reskir.github.io)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "bundle exec jekyll build",
+        "start": "bundle exec jekyll serve --watch --livereload"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/reskir/reskir.github.io.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/reskir/reskir.github.io/issues"
+    },
+    "homepage": "https://github.com/reskir/reskir.github.io#readme"
+}
