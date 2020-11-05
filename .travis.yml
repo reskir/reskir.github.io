@@ -2,10 +2,10 @@ language: ruby
 rvm:
     - 2.7.2
 before_script:
-    - pecl install imagick
+    - sudo apt-get install imagemagick
 script: 'bundle exec jekyll build'
 cache: bundler
-os: osx
+os: linux
 deploy:
     strategy: git
     provider: pages
