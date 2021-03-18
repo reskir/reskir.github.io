@@ -5,12 +5,14 @@ permalink: /about/
 description: Front-end developer from Vilnius, Lithuania. Passioned with clean code and pure functions which solves issue and problems.
 ---
 
+<b><a href="/assets/docs/kiril_abaskin_cv_en.pdf">kiril_abaskin_cv_en.pdf</a></b>
+
 ### Experience
 
+-   Developed mobile version of SPA for search and browse and product pages <a href="https://1stdibs.com">@1stdibs</a>
+-   Improved indexability and drive traffic to our platform by implementing different SEO strategies and products <a href="https://1stdibs.com">@1stdibs</a>
 -   Build HTML5 ads for main UK, Spain, Scandinavian and Lithuanian publishers and brands: Sky, Aftonbladet, TheGuardian <a href="https://adform.com">@Adform</a>
 -   Created and maintained with team of developers UI library for around 23 internal products <a href="https://adform.com">@Adform</a>
--   Developed mobile version of single page application for products page <a href="https://1stdibs.com">@1stdibs</a>
--   Worked on creating internationalized version of platform <a href="https://1stdibs.com">@1stdibs</a>
 
 ### Tools and technologies I'm working with
 
@@ -36,6 +38,3 @@ description: Front-end developer from Vilnius, Lithuania. Passioned with clean c
         <td>Webpack</td>
     </tr>
 </table> -->
-
-<!-- <div id="root"></div>
-{% asset about.js @inline %} -->
