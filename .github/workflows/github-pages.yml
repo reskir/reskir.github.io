@@ -10,6 +10,6 @@ jobs:
         runs-on: ubuntu-16.04
         steps:
             - uses: actions/checkout@v2
-            - uses: helaili/jekyll-action@2.2.0
+            - uses: helaili/jekyll-action@v2
               env:
-                  github_token: ${{ secrets.JEKKYL_PAT }}
+                  token: ${{ secrets.GIT_TOKEN }}
