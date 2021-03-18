@@ -119,6 +119,3 @@ DEPENDENCIES
   mini_magick
   minima (~> 2.0)
   sprockets (~> 3.7)
-
-BUNDLED WITH
-   1.17.3
