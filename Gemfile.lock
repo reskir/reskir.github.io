@@ -110,7 +110,6 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  bundler (~> 1.17.3)
   jekyll (~> 3.9)
   jekyll-assets
   jekyll-feed
