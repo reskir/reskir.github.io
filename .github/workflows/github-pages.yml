@@ -7,9 +7,10 @@ on:
 
 jobs:
     github-pages:
-        runs-on: ubuntu-16.04
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
             - uses: helaili/jekyll-action@v2
               with:
                   token: ${{ secrets.GIT_TOKEN }}
+                  pre_build_commands: apk --update add imagemagick
