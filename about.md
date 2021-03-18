@@ -14,7 +14,7 @@ description: Front-end developer from Vilnius, Lithuania. Passioned with clean c
 
 ### Tools and technologies I'm working with
 
-{% asset tools.png magick:format=webp %}
+{% asset tools.png %}
 
 <!-- <table>
     <tr>
@@ -37,5 +37,5 @@ description: Front-end developer from Vilnius, Lithuania. Passioned with clean c
     </tr>
 </table> -->
 
-<div id="root"></div>
-{% asset about.js @inline %}
+<!-- <div id="root"></div> -->
+<!-- {% asset about.js @inline %} -->
