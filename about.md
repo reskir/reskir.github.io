@@ -12,7 +12,7 @@ description: Front-end developer from Vilnius, Lithuania. Passioned with clean c
 -   Developed mobile version of SPA for search and browse and product pages <a href="https://1stdibs.com">@1stdibs</a>
 -   Improved indexability and drive traffic to our platform by implementing different SEO strategies and products <a href="https://1stdibs.com">@1stdibs</a>
 -   Build HTML5 ads for main UK, Spain, Scandinavian and Lithuanian publishers and brands: Sky, Aftonbladet, TheGuardian <a href="https://adform.com">@Adform</a>
--   Created and maintained with team of developers UI library for around 23 internal products <a href="https://adform.com">@Adform</a>
+-   Created and maintained with a team of developers UI library for around 23 internal products <a href="https://adform.com">@Adform</a>
 
 ### Tools and technologies I'm working with
 
