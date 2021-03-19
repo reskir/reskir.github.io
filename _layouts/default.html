@@ -15,17 +15,13 @@
       const theme = localStorage.getItem('theme');
 	  const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 	  const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-	
-      if (theme) {
+	  const mediaTheme = userPrefersDark ? 'dark' : 'light';
+
+      if (theme === mediaTheme) {
     		document.documentElement.setAttribute('data-theme',theme);
-      } else {
-			if (userPrefersDark) {
-				document.documentElement.setAttribute('data-theme', 'dark');
-				window.localStorage.setItem('theme', 'dark');
-			} else {
-				document.documentElement.setAttribute('data-theme', 'light');
-				window.localStorage.setItem('theme', 'light');
-			}
+      } else if(theme !== mediaTheme) {
+			document.documentElement.setAttribute('data-theme', mediaTheme);
+			window.localStorage.setItem('theme', mediaTheme);
       }
 
       // function modeSwitcher() {
