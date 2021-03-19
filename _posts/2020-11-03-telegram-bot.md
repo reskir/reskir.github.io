@@ -2,7 +2,7 @@
 layout: project
 title: 'Reporting bad parkers with telegram bot'
 date: 2020-11-03 10:00:00 +0300
-categories: project
+categories: projects
 ---
 
 Telegram bot registers bad parkers and sends data to local POLICE department.

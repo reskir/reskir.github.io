@@ -16,74 +16,72 @@
 title: Kiril Abaškin
 email: kiril.abashkin@gmail.com
 description: frontend software engineer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://reskir.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  reskir
-linkedin_username: kiril-abaškin-34842137
-logo: "logo"
-permalink: /:year/:month/:day/:title:output_ext
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://reskir.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+github_username: reskir
+linkedin_username: kirilab
+logo: 'logo'
+permalink: /:categories/:slug
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-assets
+    - jekyll-feed
+    - jekyll-assets
 
 compression: true # true on JEKYLL_ENV=production
 source_maps: true # false on JEKYLL_ENV=production
 assets:
-  plugins:
-    img:
-      optim:
-        verbose: true
-        nice: 2
-        pngout: true
-        advpng:
-          level: 2
-        optipng:
-          level: 1
-  source_maps: true # false on JEKYLL_ENV=production
-  destination: "/assets"
-  compression: true # true on JEKYLL_ENV=production
-  gzip: true # true on JEKYLL_ENV=production
-  defaults:
-    js: { integrity: false } # true on JEKYLL_ENV=production
-    css: { integrity: false } # true on JEKYLL_ENV=production
-    img: { integrity: false } # true on JEKYLL_ENV=production
-  caching:
-    path: ".jekyll-cache/assets"
-    type: file # Possible values: memory, file
-    enabled: true
-  # --
-  # Assets you wish to always have compiled.
-  #   This can also be combined with raw_precompile which
-  #   copies assets without running through the pipeline
-  #   making them ultra fast.
-  # --
-  precompile: []
-  raw_precompile: [
+    plugins:
+        img:
+            optim:
+                verbose: true
+                nice: 2
+                pngout: true
+                advpng:
+                    level: 2
+                optipng:
+                    level: 1
+    source_maps: true # false on JEKYLL_ENV=production
+    destination: '/assets'
+    compression: true # true on JEKYLL_ENV=production
+    gzip: true # true on JEKYLL_ENV=production
+    defaults:
+        js: { integrity: false } # true on JEKYLL_ENV=production
+        css: { integrity: false } # true on JEKYLL_ENV=production
+        img: { integrity: false } # true on JEKYLL_ENV=production
+    caching:
+        path: '.jekyll-cache/assets'
+        type: file # Possible values: memory, file
+        enabled: true
+    # --
+    # Assets you wish to always have compiled.
+    #   This can also be combined with raw_precompile which
+    #   copies assets without running through the pipeline
+    #   making them ultra fast.
+    # --
+    precompile: []
+    raw_precompile: []
     #
-  ]
-  # --
-  # baseurl: whether or not to append site.baseurl
-  # destination: the folder you store them in on the CDN.
-  # url: the CDN url (fqdn, or w/ identifier).
-  # --
-  cdn:
-    baseurl: true
-    destination: false
-    url: null
-
+    # --
+    # baseurl: whether or not to append site.baseurl
+    # destination: the folder you store them in on the CDN.
+    # url: the CDN url (fqdn, or w/ identifier).
+    # --
+    cdn:
+        baseurl: true
+        destination: false
+        url: null
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - vendor
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
