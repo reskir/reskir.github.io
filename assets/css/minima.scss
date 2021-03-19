@@ -45,14 +45,6 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
 
-$text-color: #b9d2d2 !default; //#0bb5c3 !default;
-$background-color: #343434 !default;
-$brand-color: #62a388 !default;
-
-$grey-color: #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark: darken($grey-color, 25%) !default;
-
 $table-text-align: left !default;
 
 // Width of the content area
@@ -61,13 +53,6 @@ $content-width: 800px !default;
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -79,5 +64,5 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import 'minima/base', 'minima/layout', 'minima/syntax-highlighting',
-    'minima/_about', 'minima/helpers';
+@import 'minima/colors', 'minima/base', 'minima/layout',
+    'minima/syntax-highlighting', 'minima/_about', 'minima/helpers';

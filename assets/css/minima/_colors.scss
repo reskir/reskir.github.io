@@ -1,0 +1,12 @@
+/* Light color mode */
+$background-color-light: #fff;
+$text-color-light: #343434;
+
+/* Dark color mode */
+$text-color-dark: #b9d2d2;
+$background-color-dark: #343434;
+
+$brand-color: #62a388;
+$grey-color: #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark: darken($grey-color, 25%);

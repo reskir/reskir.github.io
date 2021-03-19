@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html data-theme="dark" lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
 
@@ -10,7 +10,37 @@
         {{ content }}
       </div>
     </main>
-    
+    <!-- <button id="theme-toggle" onclick="modeSwitcher()"></button> -->
+    <script>
+      const theme = localStorage.getItem('theme');
+	  const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+	  const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+	
+      if (theme) {
+        document.documentElement.setAttribute('data-theme',theme);
+      } else {
+            if (userPrefersDark) {
+              document.documentElement.setAttribute('data-theme', 'dark');
+              window.localStorage.setItem('theme', 'dark');
+            } else {
+              document.documentElement.setAttribute('data-theme', 'light');
+              window.localStorage.setItem('theme', 'light');
+            }
+      }
+
+      // function modeSwitcher() {
+      //   let currentMode = document.documentElement.getAttribute('data-theme');
+      //   if (currentMode === "dark") {
+      //     document.documentElement.setAttribute('data-theme', 'light');
+      //     window.localStorage.setItem('theme', 'light');
+      //     //document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+      //   } else {
+      //     document.documentElement.setAttribute('data-theme', 'dark');
+      //     window.localStorage.setItem('theme', 'dark');
+      //     //document.getElementById("theme-toggle").innerHTML = "Light Mode";
+      //   }
+      // }
+    </script>
   </body>
 
 </html>

@@ -1,3 +1,14 @@
+html,
+html[data-theme='light'] {
+    --color-page-background: #{$background-color-light};
+    --color-text: #{$text-color-light};
+}
+
+html[data-theme='dark'] {
+    --color-page-background: #{$background-color-dark};
+    --color-text: #{$text-color-dark};
+}
+
 /**
  * Reset some basic elements
  */
@@ -27,19 +38,14 @@ figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height}
         $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
+    color: var(--color-text);
+    background-color: var(--color-page-background);
     font-feature-settings: 'kern' 1;
     font-kerning: normal;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /**
@@ -127,7 +133,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        color: var(--color-text);
         text-decoration: underline;
     }
 
@@ -245,7 +251,6 @@ table {
     margin-bottom: $spacing-unit;
     width: 100%;
     text-align: $table-text-align;
-    color: lighten($text-color, 18%);
     border-collapse: collapse;
     border: 1px solid $grey-color-light;
     tr {
