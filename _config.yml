@@ -28,6 +28,7 @@ theme: minima
 plugins:
     - jekyll-feed
     - jekyll-assets
+    - jekyll-sitemap
 
 compression: true # true on JEKYLL_ENV=production
 source_maps: true # false on JEKYLL_ENV=production
