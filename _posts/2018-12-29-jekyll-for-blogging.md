@@ -10,7 +10,7 @@ categories: blog
 
 #### Perks of using Jekyll for your projects:
 
--   **No backend/databases** (yes, I consider this as pros).
+-   **No backend/databases** (yes, I consider this as a huge benefit, especially if you are just blogging).
 -   **Static files**, all you need is html + css and sometimes some simple javascript logic (for slider f.ex.);
 -   **Markdown** - it is easy to document and write posts
 -   **Plugins** - jekyll has some awesome plugins for SEO, asset management and etc.
