@@ -2,5 +2,5 @@
 layout: none
 ---
 User-agent: *
+Disallow: /assets/
 Sitemap: {{ site.url }}/sitemap.xml
-Disallow: {{ site.url }}/assets/
