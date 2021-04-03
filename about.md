@@ -7,16 +7,44 @@ description: Front-end developer from Vilnius, Lithuania. Passioned with clean c
 
 <b><a href="/assets/docs/kiril_abaskin_cv_en.pdf">kiril_abaskin_cv_en.pdf</a></b>
 
-### Experience
+### Heads up on where I've worked
 
--   Developed mobile version of SPA for search and browse and product pages <a href="https://1stdibs.com">@1stdibs</a>
+-   Developed mobile version of SPA web application for inventory and single product pages <a href="https://1stdibs.com">@1stdibs</a>
 -   Improved indexability and drive traffic to our platform by implementing different SEO strategies and products <a href="https://1stdibs.com">@1stdibs</a>
 -   Build HTML5 ads for main UK, Spain, Scandinavian and Lithuanian publishers and brands: Sky, Aftonbladet, TheGuardian <a href="https://adform.com">@Adform</a>
 -   Created and maintained with a team of developers UI library for around 23 internal products <a href="https://adform.com">@Adform</a>
 
-### Tools and technologies I'm working with
+<br />
+This is what I'm using for creating solid, maintainable and scalable web projects
 
-{% asset tools.png magick:format=webp %}
+#### for data and state management
+
+<ul>
+    <li>GraphQL</li>
+    <li>Relay</li>
+    <li>NodeJS</li>
+</ul>
+
+#### for UI interfaces
+
+<ul>
+    <li>React</li>
+    <li>Jekyll/Ghost (blog platforms)</li>
+</ul>
+
+#### for project management
+
+<ul>
+    <li>Jira</li>
+    <li>Github</li>
+</ul>
+
+#### languages
+
+<ul>
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+</ul>
 
 <!-- <table>
     <tr>
