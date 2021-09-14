@@ -15,7 +15,7 @@ description: Front-end developer from Vilnius, Lithuania. Passioned with clean c
 -   Created and maintained with a team of developers UI library for around 23 internal products <a href="https://adform.com">@Adform</a>
 
 <br />
-This is what I'm using for creating solid, maintainable and scalable web projects
+This is what I'm using for creating solid, maintainable and scalable web applications
 
 #### for data and state management
 
@@ -37,13 +37,6 @@ This is what I'm using for creating solid, maintainable and scalable web project
 <ul>
     <li>Jira</li>
     <li>Github</li>
-</ul>
-
-#### languages
-
-<ul>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
 </ul>
 
 <!-- <table>
