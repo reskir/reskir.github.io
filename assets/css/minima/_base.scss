@@ -277,3 +277,23 @@ table {
     outline: none;
     border: 0;
 }
+
+
+.about {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    align-items: center;
+    margin: 48px 0;
+
+    @include media-query($on-palm) {
+        grid-template-columns: 1fr;
+    }
+
+    .description {
+        padding-right: 24px;
+        text-align: center;
+        @include media-query($on-palm) {
+            text-align: left;
+        }
+    }
+}
