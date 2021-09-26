@@ -8,3 +8,4 @@ vendor/gems/
 vendor/ruby/
 .bundle/
 .jekyll-cache/
+_vendor/
