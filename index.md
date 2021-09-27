@@ -5,10 +5,6 @@ description: Hello, I am Kiril Abaskin, Frontend developer from Lithuania, Vilni
 ---
 
 <div class="about">
-  <p class="description">
-    Hi, this is me, software developer
-  </p>
-
   <div class="image">
   {% asset me2.jpg width="300" %}
   </div>
