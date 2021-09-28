@@ -6,7 +6,10 @@
     "scripts": {
         "build": "bundle exec jekyll build",
         "start": "bundle exec jekyll serve",
-        "dev": "bundle exec jekyll serve --watch --livereload"
+        "dev": "bundle exec jekyll serve --watch --livereload",
+        "serve": "vite preview",
+        "dev:js": "vite dev",
+        "build:js": "vite build"
     },
     "repository": {
         "type": "git",
@@ -17,5 +20,8 @@
     "bugs": {
         "url": "https://github.com/reskir/reskir.github.io/issues"
     },
-    "homepage": "https://github.com/reskir/reskir.github.io#readme"
+    "homepage": "https://github.com/reskir/reskir.github.io#readme",
+    "devDependencies": {
+        "vite": "^2.5.10"
+    }
 }
