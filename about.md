@@ -5,7 +5,7 @@ permalink: /about/
 description: Front-end developer from Vilnius, Lithuania. Passioned with clean code and pure functions which solves issue and problems.
 ---
 
-<b><a href="/assets/docs/kiril_abaskin_cv_en.pdf">kiril_abaskin_cv_en.pdf</a></b>
+<b><a href="/assets/docs/kiril_abaskin_cv.pdf">kiril_abaskin_cv.pdf</a></b>
 
 ### Heads up on where I've worked
 
