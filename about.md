@@ -7,15 +7,16 @@ description: Front-end developer from Vilnius, Lithuania. Passioned with clean c
 
 <b><a href="/assets/docs/kiril_abaskin_cv.pdf">kiril_abaskin_cv.pdf</a></b>
 
-### Heads up on where I've worked
+### Heads up on my commits
 
--   Developed mobile version of SPA web application for inventory and single product pages <a href="https://1stdibs.com">@1stdibs</a>
--   Improved indexability and drive traffic to our platform by implementing different SEO strategies and products <a href="https://1stdibs.com">@1stdibs</a>
+-   Created and organized monorepo project for shared packages <a href="https://coherentsolutions.com">@Coherent Solutions</a>
+-   Developed mobile version of SPA web application for inventory and single product pages <a href="https://1stdibs.com">@1stDibs</a>
+-   Improved indexability and drive traffic to our platform by implementing different SEO strategies and products <a href="https://1stdibs.com">@1stDibs</a>
 -   Build HTML5 ads for main UK, Spain, Scandinavian and Lithuanian publishers and brands: Sky, Aftonbladet, TheGuardian <a href="https://adform.com">@Adform</a>
 -   Created and maintained with a team of developers UI library for around 23 internal products <a href="https://adform.com">@Adform</a>
 
 <br />
-This is what I'm using for creating solid, maintainable and scalable web applications
+This is what I'm using for creating easily maintainable and scalable web applications
 
 #### for data and state management
 
@@ -23,6 +24,7 @@ This is what I'm using for creating solid, maintainable and scalable web applica
     <li>GraphQL</li>
     <li>Relay</li>
     <li>NodeJS</li>
+    <li>Redux/Jotai</li>
 </ul>
 
 #### for UI interfaces
@@ -37,6 +39,15 @@ This is what I'm using for creating solid, maintainable and scalable web applica
 <ul>
     <li>Jira</li>
     <li>Github</li>
+</ul>
+
+#### DevOps experience
+
+<ul>
+    <li>CircleCI</li>
+    <li>Jenkins</li>
+    <li>TravisCI</li>
+    <li>Github actions</li>
 </ul>
 
 <!-- <table>
