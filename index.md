@@ -1,7 +1,7 @@
 ---
 layout: home
 exclude: true
-description: Hello, I am Kiril Abaskin, Frontend developer from Lithuania, Vilnius
+description: Hello, I am Kiril Abaskin, software developer from Lithuania, Vilnius
 ---
 
 <div class="about">
@@ -15,8 +15,6 @@ For any collaborations or projects – please <a href="mailto:kiril.abashkin@gma
 <a href="https://www.linkedin.com/in/kirilab/"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">LinkedIn</span></a>
 
 </p>
-
-
 
 <p>
   <a href="/about">More information on my skills and experience</a>
