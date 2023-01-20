@@ -6,8 +6,13 @@
             "years": "2021-11 - current",
             "projects": [
                 {
+                    "title": "Communications",
+                    "description": "",
+                    "tools": "react, react-query, typescript, emotionJS, MUI"
+                },
+                {
                     "title": "Monorepo",
-                    "description": "Migrate separate npm packages to a single monorepo and configure deployment, build, packaging, and versioning of those packages. Used Lerna for automating monorepo and rollup for building ES modules and commonjs artifacts. Documented and introduced for a team of 10 – 15 developers.",
+                    "description": "Migrate separate npm packages to a single monorepo and configure deployment, build, packaging, and versioning of those packages. Used Lerna for automating monorepo and rollup for building ES modules and commonjs artifacts. Documented and introduced for a team of 10-15 developers.",
                     "tools": "GitHub packages, lerna, typescript, Powershell, circle CI"
                 }
             ]

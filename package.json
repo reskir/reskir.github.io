@@ -22,6 +22,6 @@
     },
     "homepage": "https://github.com/reskir/reskir.github.io#readme",
     "devDependencies": {
-        "vite": "^2.5.10"
+        "vite": "^4.0.4"
     }
 }

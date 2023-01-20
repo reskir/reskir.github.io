@@ -1,25 +1,24 @@
-.jobs {
+@mixin flexDirectionColumn() {
     display: flex;
     flex-direction: column;
+}
+.jobs {
+    @include flexDirectionColumn();
     gap: 32px;
 }
 
-.job-description,
 .job {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+    @include flexDirectionColumn();
+    gap: 12px;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
+    @include flexDirectionColumn();
     gap: 12px;
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
+    @include flexDirectionColumn();
 }
 
 .summary {
