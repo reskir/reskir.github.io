@@ -1,0 +1,81 @@
+{
+    "companies": [
+        {
+            "title": "Coherent Solutions",
+            "logo": "coherent-solutions.svg",
+            "years": "2021-11 - current",
+            "projects": [
+                {
+                    "title": "Monorepo",
+                    "description": "Migrate separate npm packages to a single monorepo and configure deployment, build, packaging, and versioning of those packages. Used Lerna for automating monorepo and rollup for building ES modules and commonjs artifacts. Documented and introduced for a team of 10 – 15 developers.",
+                    "tools": "GitHub packages, lerna, typescript, Powershell, circle CI"
+                }
+            ]
+        },
+        {
+            "title": "1stDibs",
+            "logo": "1stdibs.png",
+            "years": "2017-03 - 2021-06",
+            "projects": [
+                {
+                    "title": "Growth (SEO)",
+                    "description": "Use different internal/external strategies to increase search engine ranking, lower bounce rate, fulfill user experience with automatically generated content.",
+                    "achievements": [
+                        "Implement different strategies for increasing traffic",
+                        "Created internal tools for configuring and improving SEO",
+                        "Migrated Q&A project from WordPress to react, relay, and graphQL stack"
+                    ],
+                    "tools": "react, graphQL, relay, redux, typescript, express.js, fastify"
+                },
+                {
+                    "title": "User onboarding / personalized experience",
+                    "description": "The goal of the project was to generate more users and get information from them so we could make a more personalized experience in terms of product prices, verticals, etc.",
+                    "achievements": [
+                        "Email-only registration flow",
+                        "Interactive questionnaire for personalizing user experience based on responses",
+                        "Improve UX of onboarding new users"
+                    ],
+                    "tools": "react, graphQL, relay, redux, typescript, express.js, fastify"
+                },
+                {
+                    "title": "Internationalization and localization",
+                    "description": "The goal of the project was to internationalize and localize buyer-side web applications. We have created an automated pipeline for translations, supporting a few new domains (fr, co.uk, de).",
+                    "achievements": [
+                        "Localize buyer side of 1stDibs platform",
+                        "Created automated pipeline for translating American English to different languages such as German, French, and British English.",
+                        "Migrate and provide correct locale by domain"
+                    ],
+                    "tools": "react-intl, react, graphql, relay, express.js, Nginx"
+                },
+                {
+                    "title": "Search&Browse, product page refactoring",
+                    "description": "Rewrite search and browse, product pages with react, relay, and graphQL. Migrate code from PHP to a new technological stack. Maintain all major parts, also improve load time and create maintainable and easily expandable codebase for JS/Frontend developers.",
+                    "achievements": [
+                        "Rewrite search and browse pages from PHP to react, relay and graphQL",
+                        "Optimize UI for the best mobile experience",
+                        "Create a mobile-first application version",
+                        "Migrate all parts to the new codebase and update UI"
+                    ],
+                    "tools": "react, relay, typescript, graphQL, lodash, express.js"
+                }
+            ]
+        },
+        {
+            "title": "Adform",
+            "logo": "adform_logo.svg",
+            "years": "2013-11 - 2017-01",
+            "projects": [
+                {
+                    "title": "UI developer",
+                    "description": "Created and maintained internal UI library used by our products.",
+                    "tools": "HTML5, Vanilla JavaScript, JQuery, backbone.js, lodash, styleguide driven development"
+                },
+                {
+                    "title": "HTML5 advertising specialist",
+                    "description": "Created interactive banners for mobile, tablet and desktop devices. Helped clients to design, code and deliver banners in timely manner.",
+                    "tools": "HTML5, Vanilla JavaScript, Canvas, CSS"
+                }
+            ]
+        }
+    ]
+}

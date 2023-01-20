@@ -1,0 +1,32 @@
+.jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.job-description,
+.job {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary {
+    margin-bottom: 12px;
+    cursor: pointer;
+    .title {
+        margin-left: 12px;
+        @extend h4;
+    }
+}
