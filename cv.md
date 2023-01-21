@@ -17,9 +17,14 @@ description: My experience
                     {% for project in company.projects %}
                         <details class="project" open>
                             <summary class="summary">
-                            <span class="title">{{project.title}}</span>
+                                <span class="title">{{project.title}}</span>
                             </summary>
-                            <div>
+                            <div class="details">
+                                {% if project.client %}
+                                    <div class="client">
+                                        <span class="text-secondary">client</span> <b><a href="{{project.client.url}}">{{project.client.title}}</a></b>
+                                    </div>
+                                {% endif %}
                                 <p>{{project.description}}</p>
                                 {% if project.achievements %}
                                     <ul>

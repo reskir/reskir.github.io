@@ -7,11 +7,19 @@
             "projects": [
                 {
                     "title": "Communications",
+                    "client": {
+                        "url": "https://www.achieveloans.com/",
+                        "title": "AchieveLoans"
+                    },
                     "description": "",
                     "tools": "react, react-query, typescript, emotionJS, MUI"
                 },
                 {
                     "title": "Monorepo",
+                    "client": {
+                        "url": "https://www.achieveloans.com/",
+                        "title": "AchieveLoans"
+                    },
                     "description": "Migrate separate npm packages to a single monorepo and configure deployment, build, packaging, and versioning of those packages. Used Lerna for automating monorepo and rollup for building ES modules and commonjs artifacts. Documented and introduced for a team of 10-15 developers.",
                     "tools": "GitHub packages, lerna, typescript, Powershell, circle CI"
                 }
