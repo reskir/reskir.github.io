@@ -5,8 +5,6 @@ permalink: /about/
 description: Front-end developer from Vilnius, Lithuania. Passioned with clean code and pure functions which solves issue and problems.
 ---
 
-<b><a href="/assets/docs/kiril_abaskin_cv.pdf">kiril_abaskin_cv.pdf</a></b>
-
 ### Heads up on my commits
 
 -   Created and organized monorepo project for shared packages <a href="https://coherentsolutions.com">@Coherent Solutions</a>

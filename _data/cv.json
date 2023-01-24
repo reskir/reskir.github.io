@@ -11,8 +11,17 @@
                         "url": "https://www.achieveloans.com/",
                         "title": "AchieveLoans"
                     },
-                    "description": "",
+                    "description": "Internal UI for communication with clients - sms/email history, integration with firebase and external APIs. Ability to send email or sms, keep the conversation and see all history within the internal user management system for mortgage advisors.",
                     "tools": "react, react-query, typescript, emotionJS, MUI"
+                },
+                {
+                    "title": "Custom chat",
+                    "client": {
+                        "url": "https://www.achieveloans.com/",
+                        "title": "AchieveLoans"
+                    },
+                    "description": "Created custom chat both for internal and external clients could use. Manage stateless web sockets API from LiveChat for controlling notifications, chat history, and handling unresponsive chats by transferring them to free agents.",
+                    "tools": "typescript, react, redux, web sockets, LiveChat API, jest"
                 },
                 {
                     "title": "Monorepo",
