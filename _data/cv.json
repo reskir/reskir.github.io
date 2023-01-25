@@ -93,13 +93,13 @@
                     "achievements": [
                         "Document and create different UI modules for usage in other projects",
                         "Continuously update and maintain consistent UI/UX experience across the platform",
-                        "Present and train other developers on how to use and implement our UI library within projects"
+                        "Present and train to other developers on how to use and implement our UI library within organization projects"
                     ],
                     "tools": "web components, nodejs, jQuery, backbone.js, javascript"
                 },
                 {
                     "title": "UI libarary for internal products",
-                    "description": "Maintain our internal UI library which was used to build various internal projects used by developers outside and within organization. My main responsibilities were to create/update UI components, maintain already created ones, and help implement those in projects.",
+                    "description": "Maintain and constantly improve internal UI library which was used to build numerous internal projects by developers outside and within organization. My main responsibilities were to create/update UI components, maintain already created ones, and help implement those in projects.",
                     "achievements": [
                         "Create and maintain different UI elements (datepicker, grid, multi-select) for our UI library",
                         "Document and help other teams in implementing those UI elements in their projects",
@@ -112,9 +112,9 @@
                     "description": "Creating interactive HTML5 ads for EU/UK publishers. Creating responsive, mobile-first ads. This project included a lot of communication with clients – determining client goals, approving designs, etc.",
                     "achievements": [
                         "Worked with different EU and UK publishers",
-                        "Created interactive ads for different main EU publishers such as Aftonbladet, Sky, etc.",
-                        "Helped clients with deciding on design and animations for their ads",
-                        "Improved ads by reducing the weight of assets and adding statistics for future improvements"
+                        "Created interactive ads for various EU publishers such as Aftonbladet, Sky, etc.",
+                        "Collaborated with clients on design and animations prototyping for their ads",
+                        "Improved ads by reducing the weight of assets (video, images) but maintaining quality and adding statistics to track possible future improvements"
                     ],
                     "tools": "HTML5, Vanilla JavaScript, Canvas, CSS"
                 }
