@@ -29,8 +29,8 @@
                         "url": "https://www.achieveloans.com/",
                         "title": "AchieveLoans"
                     },
-                    "description": "Migrate separate npm packages to a single monorepo and configure deployment, build, packaging, and versioning of those packages. Used Lerna for automating monorepo and rollup for building ES modules and commonjs artifacts. Documented and introduced for a team of 10-15 developers.",
-                    "tools": "GitHub packages, lerna, typescript, Powershell, circle CI"
+                    "description": "Created a solution for managing reusable packages for frontend applications. Organized workflow for building, deploying, and publishing with lerna and migrate all packages from different repositories maintaining all commits history. Used conventional commits for correct package versioning.",
+                    "tools": "Lerna, rollup, shell, GitHub actions"
                 }
             ]
         },
@@ -88,13 +88,34 @@
             "years": "2013-11 - 2017-01",
             "projects": [
                 {
-                    "title": "UI developer",
-                    "description": "Created and maintained internal UI library used by our products.",
+                    "title": "Styleguide driven development",
+                    "description": "The main goal of the project was to implement style guides for our UI library. We had around 18 projects built by different teams within an organization. Hence, our goal was to maintain UX between those products since they were operating under one domain, making other developers implementing the UI part simpler and shortening overall product development time.",
+                    "achievements": [
+                        "Document and create different UI modules for usage in other projects",
+                        "Continuously update and maintain consistent UI/UX experience across the platform",
+                        "Present and train other developers on how to use and implement our UI library within projects"
+                    ],
+                    "tools": "web components, nodejs, jQuery, backbone.js, javascript"
+                },
+                {
+                    "title": "UI libarary for internal products",
+                    "description": "Maintain our internal UI library which was used to build various internal projects used by developers outside and within organization. My main responsibilities were to create/update UI components, maintain already created ones, and help implement those in projects.",
+                    "achievements": [
+                        "Create and maintain different UI elements (datepicker, grid, multi-select) for our UI library",
+                        "Document and help other teams in implementing those UI elements in their projects",
+                        "Support and bug fix components"
+                    ],
                     "tools": "HTML5, Vanilla JavaScript, JQuery, backbone.js, lodash, styleguide driven development"
                 },
                 {
-                    "title": "HTML5 advertising specialist",
-                    "description": "Created interactive banners for mobile, tablet and desktop devices. Helped clients to design, code and deliver banners in timely manner.",
+                    "title": "HTML5 interactive banners",
+                    "description": "Creating interactive HTML5 ads for EU/UK publishers. Creating responsive, mobile-first ads. This project included a lot of communication with clients – determining client goals, approving designs, etc.",
+                    "achievements": [
+                        "Worked with different EU and UK publishers",
+                        "Created interactive ads for different main EU publishers such as Aftonbladet, Sky, etc.",
+                        "Helped clients with deciding on design and animations for their ads",
+                        "Improved ads by reducing the weight of assets and adding statistics for future improvements"
+                    ],
                     "tools": "HTML5, Vanilla JavaScript, Canvas, CSS"
                 }
             ]
