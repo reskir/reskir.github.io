@@ -28,7 +28,12 @@
         window.matchMedia('(prefers-color-scheme: dark)').matches
             ? 'dark'
             : 'light';
-    const theme = localStorage.getItem('theme') ?? mediaTheme;
+
+    const theme = window.localStorage.getItem('theme') ?? mediaTheme;
+
+    if (theme) {
+        window.localStorage.setItem('theme', theme);
+    }
 
     document.documentElement.setAttribute('data-theme', theme);
     switcher.innerHTML = theme === 'light' ? icon['dark'] : icon['light'];
