@@ -23,25 +23,13 @@
             document.getElementById('theme-toggle').innerHTML = icon;
         }
     });
-
-    const theme = localStorage.getItem('theme');
-    const userPrefersDark =
+    const mediaTheme =
         window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const userPrefersLight =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: light)').matches;
-    const mediaTheme = userPrefersDark ? 'dark' : 'light';
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light';
+    const theme = localStorage.getItem('theme') ?? mediaTheme;
 
-    if (theme) {
-        switcher.innerHTML = theme === 'light' ? icon['dark'] : icon['light'];
-    } else {
-        switcher.innerHTML = userPrefersDark ? icon['light'] : icon['dark'];
-    }
-
-    if (theme) {
-        document.documentElement.setAttribute('data-theme', theme);
-    } else {
-        document.documentElement.setAttribute('data-theme', mediaTheme);
-    }
+    document.documentElement.setAttribute('data-theme', theme);
+    switcher.innerHTML = theme === 'light' ? icon['dark'] : icon['light'];
 })();
