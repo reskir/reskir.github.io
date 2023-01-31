@@ -26,7 +26,7 @@ description: My experience
                             <div class="details">
                                 {% if project.client %}
                                     <div class="client">
-                                        <span class="text-secondary">client</span> <b><a href="{{project.client.url}}">{{project.client.title}}</a></b>
+                                        <span class="text-secondary">client</span> <b><a rel="nofollow" href="{{project.client.url}}">{{project.client.title}}</a></b>
                                     </div>
                                 {% endif %}
                                 <p>{{project.description}}</p>

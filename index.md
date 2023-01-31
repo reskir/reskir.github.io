@@ -6,7 +6,7 @@ description: Hello, I am Kiril Abaskin, software developer from Lithuania, Vilni
 
 <div class="about">
   <div class="image">
-  {% asset me2.jpg width="300" %}
+  {% asset me2.jpg %}
   </div>
 </div>
 
