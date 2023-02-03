@@ -22,12 +22,12 @@
 }
 
 .summary {
-    margin-bottom: 12px;
+    margin-bottom: 6px;
     cursor: pointer;
     .title {
         user-select: none;
         margin-left: 12px;
-        @extend h4;
+        @extend h5;
     }
 }
 
