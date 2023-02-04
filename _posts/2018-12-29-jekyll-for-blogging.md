@@ -3,6 +3,7 @@ layout: post
 title: 'How I use Jekyll'
 description: My experience with jekyll blogging platform and github pages
 date: 2018-12-29 09:15:15 +0300
+updated: 2023-02-02 09:15:15 +0300
 categories: blog
 ---
 
@@ -27,3 +28,8 @@ For my blogs I usually reuse the same plugins, the most useful I found are these
 "image_optim_pack"
 "mini_magick"
 ```
+
+#### CI/CD
+
+Since github is capable of serving jekyll websites it is quite easy to setup whole pipeline for testing, building and deploying your jekyll websites.
+
