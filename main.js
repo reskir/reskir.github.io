@@ -7,9 +7,11 @@
         [DARK]: '🌒',
     };
 
-    document.querySelector(
-        '.wrapper'
-    ).innerHTML = `<button class="switcher" id="theme-toggle"></button>`;
+    const button = document.createElement('button');
+    button.className = 'switcher';
+    button.id = 'theme-toggle';
+
+    document.getElementsByTagName('header')[0].append(button);
 
     const switcher = document.querySelector('.switcher');
 

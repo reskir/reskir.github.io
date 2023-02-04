@@ -1,6 +1,20 @@
 /**
  * Site header
  */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.switcher {
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    border: 0;
+    flex: auto;
+}
+
 .site-header {
     display: flex;
     flex-direction: column;

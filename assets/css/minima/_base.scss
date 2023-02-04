@@ -270,18 +270,10 @@ table {
     }
 }
 
-.switcher {
-    padding: 18px 0;
-    font-size: 20px;
-    background: none;
-    outline: none;
-    border: 0;
-}
-
 
 .about {
     display: grid;
-    grid-template-columns: .5fr .5fr;
+    grid-template-columns: 0.5fr 0.5fr;
     align-items: center;
     margin: 48px 0;
 
