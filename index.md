@@ -4,8 +4,8 @@ exclude: true
 description: Hello, I am Kiril Abaskin, software developer from Lithuania, Vilnius
 ---
 
-<h3>Hi, I am sofware developer with experience in building frontend and backend parts of application.
-I've built various applications for e-commerce, finance and advertising industries.</h3>
+<h1>Hi, I am sofware developer with experience in building frontend and backend fully typed applications.
+I've built various applications for e-commerce, finance and advertising industries.</h1>
 
 <div class="about">
   <div class="image">
