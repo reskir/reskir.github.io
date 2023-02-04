@@ -1,7 +1,10 @@
 (() => {
+    const DARK = 'dark';
+    const LIGHT = 'light';
+
     const icon = {
-        light: '☀️',
-        dark: '🌒',
+        [LIGHT]: '☀️',
+        [DARK]: '🌒',
     };
 
     document.querySelector(
@@ -12,29 +15,26 @@
 
     switcher.addEventListener('click', () => {
         const currentMode = document.documentElement.getAttribute('data-theme');
-        const icon = currentMode === 'dark' ? '🌒' : '☀️';
-        if (currentMode === 'dark') {
-            document.documentElement.setAttribute('data-theme', 'light');
-            window.localStorage.setItem('theme', 'light');
-            document.getElementById('theme-toggle').innerHTML = icon;
-        } else {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            window.localStorage.setItem('theme', 'dark');
-            document.getElementById('theme-toggle').innerHTML = icon;
-        }
+        const isDark = currentMode === DARK;
+        const theme = isDark ? LIGHT : DARK;
+        document.documentElement.setAttribute('data-theme', theme);
+        window.localStorage.setItem('theme', theme);
+        document.getElementById('theme-toggle').innerHTML =
+            icon[theme === DARK ? LIGHT : DARK];
     });
+
     const mediaTheme =
         window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches
-            ? 'dark'
-            : 'light';
+            ? DARK
+            : LIGHT;
 
     const theme = window.localStorage.getItem('theme') ?? mediaTheme;
 
-    if (theme) {
+    if (!window.localStorage.getItem('theme')) {
         window.localStorage.setItem('theme', theme);
     }
 
     document.documentElement.setAttribute('data-theme', theme);
-    switcher.innerHTML = theme === 'light' ? icon['dark'] : icon['light'];
+    switcher.innerHTML = theme === LIGHT ? icon[DARK] : icon[LIGHT];
 })();
