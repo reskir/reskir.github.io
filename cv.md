@@ -14,7 +14,7 @@ description: My experience
 
         <div class="job">
                 <div class="info">
-                    {% asset {{company.logo}} width="100" alt={{company.title}} %}
+                    <a href="{{company.url}}" rel="follow">{% asset {{company.logo}} width="100" alt={{company.title}} %}</a>
                     <div class="text-secondary fontSize-small">{{company.years}}</div>
                 </div>
 
@@ -26,7 +26,7 @@ description: My experience
                             <div class="details">
                                 {% if project.client %}
                                     <div class="client">
-                                        <span class="text-secondary">client</span> <b><a rel="nofollow" href="{{project.client.url}}">{{project.client.title}}</a></b>
+                                        <span class="text-secondary">client <a rel="nofollow" href="{{project.client.url}}">{{project.client.title}}</a></span>
                                     </div>
                                 {% endif %}
                                 <p>{{project.description}}</p>

@@ -4,12 +4,13 @@
             "title": "Coherent Solutions",
             "logo": "coherent-solutions.svg",
             "years": "2021-11 - current",
+            "url": "https://coherentsolutions.com",
             "projects": [
                 {
                     "title": "Communications",
                     "client": {
                         "url": "https://www.achieveloans.com/",
-                        "title": "AchieveLoans"
+                        "title": "Achieve Loans"
                     },
                     "description": "Internal UI for communication with clients - sms/email history, integration with firebase and external APIs. Ability to send email or sms, keep the conversation and see all history within the internal user management system for mortgage advisors.",
                     "tools": "react, react-query, typescript, emotionJS, MUI"
@@ -18,7 +19,7 @@
                     "title": "Custom chat",
                     "client": {
                         "url": "https://www.achieveloans.com/",
-                        "title": "AchieveLoans"
+                        "title": "Achieve Loans"
                     },
                     "description": "Created custom chat both for internal and external clients could use. Manage stateless web sockets API from LiveChat for controlling notifications, chat history, and handling unresponsive chats by transferring them to free agents.",
                     "tools": "typescript, react, redux, web sockets, LiveChat API, jest"
@@ -27,7 +28,7 @@
                     "title": "Monorepo",
                     "client": {
                         "url": "https://www.achieveloans.com/",
-                        "title": "AchieveLoans"
+                        "title": "Achieve Loans"
                     },
                     "description": "Created a solution for managing reusable packages for frontend applications. Organized workflow for building, deploying, and publishing with lerna and migrate all packages from different repositories maintaining all commits history. Used conventional commits for correct package versioning.",
                     "tools": "Lerna, rollup, shell, GitHub actions"
@@ -38,6 +39,7 @@
             "title": "1stDibs",
             "logo": "1stdibs.png",
             "years": "2017-03 - 2021-06",
+            "url": "https://1stdibs.com",
             "projects": [
                 {
                     "title": "Growth (SEO)",
@@ -86,6 +88,7 @@
             "title": "Adform",
             "logo": "adform_logo.svg",
             "years": "2013-11 - 2017-01",
+            "url": "https://adform.com",
             "projects": [
                 {
                     "title": "Styleguide driven development",
