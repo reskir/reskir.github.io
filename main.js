@@ -11,16 +11,20 @@
     button.id = 'theme-toggle';
 
     const switcher = document.querySelector('.switcher');
-    switcher.append(button);
 
+    if (!switcher) {
+        return;
+    }
+
+    switcher.append(button);
     button.addEventListener('click', () => {
         const currentMode = document.documentElement.getAttribute('data-theme');
         const isDark = currentMode === DARK;
         const theme = isDark ? LIGHT : DARK;
         document.documentElement.setAttribute('data-theme', theme);
         window.localStorage.setItem('theme', theme);
-        document.getElementById('theme-toggle').innerHTML =
-            icon[theme === DARK ? LIGHT : DARK];
+
+        button.innerHTML = icon[theme === DARK ? LIGHT : DARK];
     });
 
     const mediaTheme =

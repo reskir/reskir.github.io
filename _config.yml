@@ -38,6 +38,7 @@ defaults:
 
 compression: true # true on JEKYLL_ENV=production
 source_maps: true # false on JEKYLL_ENV=production
+google_site_verification: sNoip8E2tCz2ELNxXjVPE2z4XilOYuINmlOc-to5VQg
 assets:
     plugins:
         img:
