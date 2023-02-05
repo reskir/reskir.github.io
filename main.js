@@ -8,14 +8,12 @@
     };
 
     const button = document.createElement('button');
-    button.className = 'switcher';
     button.id = 'theme-toggle';
 
-    document.getElementsByTagName('header')[0].append(button);
-
     const switcher = document.querySelector('.switcher');
+    switcher.append(button);
 
-    switcher.addEventListener('click', () => {
+    button.addEventListener('click', () => {
         const currentMode = document.documentElement.getAttribute('data-theme');
         const isDark = currentMode === DARK;
         const theme = isDark ? LIGHT : DARK;
@@ -38,5 +36,5 @@
     }
 
     document.documentElement.setAttribute('data-theme', theme);
-    switcher.innerHTML = theme === LIGHT ? icon[DARK] : icon[LIGHT];
+    button.innerHTML = theme === LIGHT ? icon[DARK] : icon[LIGHT];
 })();
