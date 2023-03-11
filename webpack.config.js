@@ -3,12 +3,20 @@ const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     mode: 'production',
+    externals: {
+        react: 'React',
+        'react-dom': 'ReactDOM',
+    },
     watch: true,
     watchOptions: {
         ignored: /node_modules/,
     },
     entry: {
-        app: path.resolve(__dirname, 'src', 'index.js'),
+        'github-status': path.resolve(
+            __dirname,
+            'src',
+            'github-page-status.js'
+        ),
         main: path.resolve(__dirname, 'main.js'),
     },
     output: {
