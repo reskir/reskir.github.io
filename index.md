@@ -9,7 +9,7 @@ I've built various applications for e-commerce, finance and advertising industri
 
 <div class="about">
   <div class="image">
-  {% asset me2.jpg width="300" %}
+  {% asset me2.jpg width="300" alt="Kiril Abaskin - software engineer" %}
   </div>
 </div>
 
