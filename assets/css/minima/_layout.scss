@@ -71,7 +71,7 @@ header {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid var(--border-color);
     padding: $spacing-unit 0;
 }
 

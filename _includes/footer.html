@@ -4,7 +4,7 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <!-- <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -14,10 +14,17 @@
             {%- endif -%}
             </li>
         </ul>
+      </div> -->
+
+
+
+      <div class="footer-col footer-col-1">
+        {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+      <div class="footer-col footer-col-4">
+        <div id="root"></div>
+        {% asset app.js %}
       </div>
 
 
