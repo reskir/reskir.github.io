@@ -7,9 +7,9 @@
         "build": "bundle exec jekyll build",
         "start": "bundle exec jekyll serve",
         "dev": "bundle exec jekyll serve --watch --livereload",
-        "serve": "vite preview",
-        "dev:js": "vite dev",
-        "build:js": "vite build"
+        "dev:js": "webpack --config webpack.config.js --progress",
+        "prod:js": "webpack --config webpack.config.js --progress",
+        "prettify": "prettier ."
     },
     "repository": {
         "type": "git",
@@ -22,6 +22,22 @@
     },
     "homepage": "https://github.com/reskir/reskir.github.io#readme",
     "devDependencies": {
-        "vite": "^4.0.4"
-    }
+        "@babel/core": "^7.21.0",
+        "@babel/preset-env": "^7.20.2",
+        "@babel/preset-react": "^7.18.6",
+        "@types/node": "^18.15.0",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "babel-loader": "^9.1.2",
+        "prettier": "^2.8.4",
+        "typescript": "^4.9.3",
+        "webpack": "^5.76.1",
+        "webpack-cli": "^5.0.1"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "^4.26.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "packageManager": "yarn@3.4.1"
 }
