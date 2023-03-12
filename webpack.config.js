@@ -1,8 +1,8 @@
 const path = require("path");
 const TerserPlugin = require("terser-webpack-plugin");
 
-module.exports = {
-    mode: "production",
+module.exports = (env) => ({
+    mode: env.production ? "production" : "development",
     externals: {
         react: "React",
         "react-dom": "ReactDOM",
@@ -60,4 +60,4 @@ module.exports = {
             },
         ],
     },
-};
+});
