@@ -9,3 +9,4 @@ vendor/ruby/
 .bundle/
 .jekyll-cache/
 _vendor/
+yarn-error.log
