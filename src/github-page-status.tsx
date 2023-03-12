@@ -20,7 +20,7 @@ const options = {
     month: "long",
     day: "numeric",
     hour: "numeric",
-};
+} as Intl.DateTimeFormatOptions;
 
 export const GHPageStatus = () => {
     const { data, isLoading, isError } = useQuery({
@@ -84,7 +84,7 @@ export const GHPageStatus = () => {
     );
 };
 
-const root = ReactDOM.createRoot(document.querySelector("#github-status"));
+const root = ReactDOM.createRoot(document.querySelector("#github-status")!);
 root.render(
     <QueryClientProvider client={queryClient}>
         <GHPageStatus />

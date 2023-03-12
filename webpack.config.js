@@ -15,9 +15,9 @@ module.exports = (env) => ({
         "github-status": path.resolve(
             __dirname,
             "src",
-            "github-page-status.js"
+            "github-page-status.tsx"
         ),
-        main: path.resolve(__dirname, "main.js"),
+        main: path.resolve(__dirname, "main.ts"),
     },
     output: {
         path: path.resolve(__dirname, "assets/javascript"),
@@ -35,8 +35,16 @@ module.exports = (env) => ({
             }),
         ],
     },
+    resolve: {
+        extensions: [".tsx", ".ts", ".js", ".jsx"],
+    },
     module: {
         rules: [
+            {
+                test: /\.tsx?$/,
+                use: "ts-loader",
+                exclude: /node_modules/,
+            },
             {
                 test: /\.(jsx|js)$/,
                 include: path.resolve(__dirname, "src"),
