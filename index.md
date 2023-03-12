@@ -22,7 +22,3 @@ For any collaborations or projects – please <a href="mailto:kiril.abashkin@gma
 <p>
   <a href="/about">More information on my skills and experience</a>
 </p>
-
-<script>
-
-</script>

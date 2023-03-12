@@ -1,27 +1,27 @@
-const path = require('path');
-const TerserPlugin = require('terser-webpack-plugin');
+const path = require("path");
+const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-    mode: 'production',
+    mode: "production",
     externals: {
-        react: 'React',
-        'react-dom': 'ReactDOM',
+        react: "React",
+        "react-dom": "ReactDOM",
     },
     watch: true,
     watchOptions: {
         ignored: /node_modules/,
     },
     entry: {
-        'github-status': path.resolve(
+        "github-status": path.resolve(
             __dirname,
-            'src',
-            'github-page-status.js'
+            "src",
+            "github-page-status.js"
         ),
-        main: path.resolve(__dirname, 'main.js'),
+        main: path.resolve(__dirname, "main.js"),
     },
     output: {
-        path: path.resolve(__dirname, 'assets/javascript'),
-        filename: '[name].js',
+        path: path.resolve(__dirname, "assets/javascript"),
+        filename: "[name].js",
     },
     optimization: {
         minimizer: [
@@ -39,20 +39,20 @@ module.exports = {
         rules: [
             {
                 test: /\.(jsx|js)$/,
-                include: path.resolve(__dirname, 'src'),
+                include: path.resolve(__dirname, "src"),
                 exclude: /node_modules/,
                 use: [
                     {
-                        loader: 'babel-loader',
+                        loader: "babel-loader",
                         options: {
                             presets: [
                                 [
-                                    '@babel/preset-env',
+                                    "@babel/preset-env",
                                     {
-                                        targets: 'defaults',
+                                        targets: "defaults",
                                     },
                                 ],
-                                '@babel/preset-react',
+                                "@babel/preset-react",
                             ],
                         },
                     },
