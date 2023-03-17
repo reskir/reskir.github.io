@@ -28,7 +28,7 @@ This is what I'm using for creating easily maintainable and scalable web applica
 #### for UI interfaces
 
 <ul>
-    <li>React</li>
+    <li>React, NextJS</li>
     <li>Jekyll/Ghost (blog platforms)</li>
 </ul>
 
