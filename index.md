@@ -4,8 +4,7 @@ exclude: true
 description: Hello, I am Kiril Abaskin, software developer from Lithuania, Vilnius
 ---
 
-<h1>Hi, I am sofware developer with experience in building frontend and backend fully typed applications.
-I've built various applications for e-commerce, finance and advertising industries.</h1>
+<h2>I am a software developer with experience in constructing fully typed frontend and backend applications. I have developed a range of applications for industries such as e-commerce, finance, and advertising.</h2>
 
 <div class="about">
   <div class="image">
@@ -14,7 +13,9 @@ I've built various applications for e-commerce, finance and advertising industri
 </div>
 
 <p class="text-secondary">
-For any collaborations or projects – please <a href="mailto:kiril.abashkin@gmail.com">contact me by email</a> or find me on
+
+If you have any further questions or if there's anything else I can assist you with, feel free to let me know.
+Contact me by <a href="mailto:kiril.abashkin@gmail.com">email</a> or find me on
 <a href="https://www.linkedin.com/in/kirilab/"><span class="username">LinkedIn</span></a>
 
 </p>
