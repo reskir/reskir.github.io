@@ -3,7 +3,7 @@
         {
             "title": "Coherent Solutions",
             "logo": "coherent-solutions.svg",
-            "years": "2021-11 - current",
+            "years": "November 2021 - Present",
             "url": "https://coherentsolutions.com",
             "projects": [
                 {
@@ -12,17 +12,17 @@
                         "url": "https://www.achieveloans.com/",
                         "title": "Achieve Loans"
                     },
-                    "description": "Internal UI for communication with clients - sms/email history, integration with firebase and external APIs. Ability to send email or sms, keep the conversation and see all history within the internal user management system for mortgage advisors.",
-                    "tools": "react, react-query, typescript, emotionJS, MUI"
+                    "description": "Developed an internal UI for client communication, encompassing SMS/email history, integration with Firebase and external APIs. Implemented features allowing mortgage advisors to send emails or SMS, maintain conversations, and view a comprehensive history within the internal user management system.",
+                    "tools": "React, React-Query, TypeScript, EmotionJS, MUI"
                 },
                 {
-                    "title": "Custom chat",
+                    "title": "Custom Chat",
                     "client": {
                         "url": "https://www.achieveloans.com/",
                         "title": "Achieve Loans"
                     },
-                    "description": "Created custom chat both for internal and external clients could use. Manage stateless web sockets API from LiveChat for controlling notifications, chat history, and handling unresponsive chats by transferring them to free agents.",
-                    "tools": "typescript, react, redux, web sockets, LiveChat API, jest"
+                    "description": "Designed and implemented a custom chat system for both internal and external clients. Managed stateless web sockets API from LiveChat for controlling notifications, chat history, and handling unresponsive chats by transferring them to available agents.",
+                    "tools": "TypeScript, React, Redux, Web Sockets, LiveChat API, Jest"
                 },
                 {
                     "title": "Monorepo",
@@ -30,93 +30,93 @@
                         "url": "https://www.achieveloans.com/",
                         "title": "Achieve Loans"
                     },
-                    "description": "Created a solution for managing reusable packages for frontend applications. Organized workflow for building, deploying, and publishing with lerna and migrate all packages from different repositories maintaining all commits history. Used conventional commits for correct package versioning.",
-                    "tools": "Lerna, rollup, shell, GitHub actions"
+                    "description": "Established a solution for managing reusable packages for frontend applications. Organized workflows for building, deploying, and publishing using Lerna, and migrated all packages from different repositories while preserving commit history. Implemented conventional commits for accurate package versioning.",
+                    "tools": "Lerna, Rollup, Shell, GitHub Actions"
                 }
             ]
         },
         {
             "title": "1stDibs",
             "logo": "1stdibs.png",
-            "years": "2017-03 - 2021-06",
+            "years": "March 2017 - June 2021",
             "url": "https://1stdibs.com",
             "projects": [
                 {
                     "title": "Growth (SEO)",
-                    "description": "Use different internal/external strategies to increase search engine ranking, lower bounce rate, fulfill user experience with automatically generated content.",
+                    "description": "Implemented various internal and external strategies to enhance search engine ranking, reduce bounce rates, and optimize user experience with automatically generated content.",
                     "achievements": [
-                        "Implement different strategies for increasing traffic",
-                        "Created internal tools for configuring and improving SEO",
-                        "Migrated Q&A project from WordPress to react, relay, and graphQL stack"
+                        "Executed diverse strategies for increasing traffic",
+                        "Developed internal tools for configuring and improving SEO",
+                        "Migrated Q&A project from WordPress to a React, Relay, and GraphQL stack"
                     ],
-                    "tools": "react, graphQL, relay, redux, typescript, express.js, fastify"
+                    "tools": "React, GraphQL, Relay, Redux, TypeScript, Express.js, Fastify"
                 },
                 {
-                    "title": "User onboarding / personalized experience",
-                    "description": "The goal of the project was to generate more users and get information from them so we could make a more personalized experience in terms of product prices, verticals, etc.",
+                    "title": "User Onboarding / Personalized Experience",
+                    "description": "Led a project aimed at generating more users and gathering information for creating a personalized experience in terms of product prices, verticals, etc.",
                     "achievements": [
-                        "Email-only registration flow",
-                        "Interactive questionnaire for personalizing user experience based on responses",
-                        "Improve UX of onboarding new users"
+                        "Introduced an email-only registration flow",
+                        "Implemented an interactive questionnaire for personalizing user experience based on responses",
+                        "Enhanced the UX of onboarding for new users"
                     ],
-                    "tools": "react, graphQL, relay, redux, typescript, express.js, fastify"
+                    "tools": "React, GraphQL, Relay, Redux, TypeScript, Express.js, Fastify"
                 },
                 {
-                    "title": "Internationalization and localization",
-                    "description": "The goal of the project was to internationalize and localize buyer-side web applications. We have created an automated pipeline for translations, supporting a few new domains (fr, co.uk, de).",
+                    "title": "Internationalization and Localization",
+                    "description": "Internationalized and localized buyer-side web applications. Developed an automated pipeline for translations, supporting new domains (fr, co.uk, de).",
                     "achievements": [
-                        "Localize buyer side of 1stDibs platform",
-                        "Created automated pipeline for translating American English to different languages such as German, French, and British English.",
-                        "Migrate and provide correct locale by domain"
+                        "Localized the buyer side of the 1stDibs platform",
+                        "Implemented an automated pipeline for translating American English to different languages such as German, French, and British English",
+                        "Migrated and ensured correct locale by domain"
                     ],
-                    "tools": "react-intl, react, graphql, relay, express.js, Nginx"
+                    "tools": "React-Intl, React, GraphQL, Relay, Express.js, Nginx"
                 },
                 {
-                    "title": "Search&Browse, product page refactoring",
-                    "description": "Rewrite search and browse, product pages with react, relay, and graphQL. Migrate code from PHP to a new technological stack. Maintain all major parts, also improve load time and create maintainable and easily expandable codebase for JS/Frontend developers.",
+                    "title": "Search & Browse, Product Page Refactoring",
+                    "description": "Rewrote search and browse, product pages with React, Relay, and GraphQL. Migrated code from PHP to a new technological stack, optimizing UI for the best mobile experience and creating a mobile-first application version.",
                     "achievements": [
-                        "Rewrite search and browse pages from PHP to react, relay and graphQL",
-                        "Optimize UI for the best mobile experience",
-                        "Create a mobile-first application version",
-                        "Migrate all parts to the new codebase and update UI"
+                        "Rewrote search and browse pages from PHP to React, Relay, and GraphQL",
+                        "Optimized UI for the best mobile experience",
+                        "Created a mobile-first application version",
+                        "Migrated all parts to the new codebase and updated UI"
                     ],
-                    "tools": "react, relay, typescript, graphQL, lodash, express.js"
+                    "tools": "React, Relay, TypeScript, GraphQL, Lodash, Express.js"
                 }
             ]
         },
         {
             "title": "Adform",
             "logo": "adform_logo.svg",
-            "years": "2013-11 - 2017-01",
+            "years": "November 2013 - January 2017",
             "url": "https://adform.com",
             "projects": [
                 {
-                    "title": "Styleguide driven development",
-                    "description": "The main goal of the project was to implement style guides for our UI library. We had around 18 projects built by different teams within an organization. Hence, our goal was to maintain UX between those products since they were operating under one domain, making other developers implementing the UI part simpler and shortening overall product development time.",
+                    "title": "Styleguide Driven Development",
+                    "description": "Implemented style guides for the UI library, maintaining UX consistency across 18 projects built by different teams. Trained developers on the use and implementation of the UI library.",
                     "achievements": [
-                        "Document and create different UI modules for usage in other projects",
-                        "Continuously update and maintain consistent UI/UX experience across the platform",
-                        "Present and train to other developers on how to use and implement our UI library within organization projects"
+                        "Documented and created different UI modules for usage in other projects",
+                        "Continuously updated and maintained consistent UI/UX experience across the platform",
+                        "Conducted presentations and training for other developers on using and implementing our UI library within organizational projects"
                     ],
-                    "tools": "web components, nodejs, jQuery, backbone.js, javascript"
+                    "tools": "Web Components, Node.js, jQuery, Backbone.js, JavaScript"
                 },
                 {
-                    "title": "UI libarary for internal products",
-                    "description": "Maintain and constantly improve internal UI library which was used to build numerous internal projects by developers outside and within organization. My main responsibilities were to create/update UI components, maintain already created ones, and help implement those in projects.",
+                    "title": "UI Library for Internal Products",
+                    "description": "Maintained and improved the internal UI library used for numerous internal projects. Created and updated UI components, assisted other teams in implementing those components, and provided support and bug fixes.",
                     "achievements": [
-                        "Create and maintain different UI elements (datepicker, grid, multi-select) for our UI library",
-                        "Document and help other teams in implementing those UI elements in their projects",
-                        "Support and bug fix components"
+                        "Created and maintained different UI elements (datepicker, grid, multi-select) for our UI library",
+                        "Documented and assisted other teams in implementing those UI elements in their projects",
+                        "Provided support and bug fixes for components"
                     ],
-                    "tools": "HTML5, Vanilla JavaScript, JQuery, backbone.js, lodash, styleguide driven development"
+                    "tools": "HTML5, Vanilla JavaScript, jQuery, Backbone.js, Lodash, Styleguide Driven Development"
                 },
                 {
-                    "title": "HTML5 interactive banners",
-                    "description": "Creating interactive HTML5 ads for EU/UK publishers. Creating responsive, mobile-first ads. This project included a lot of communication with clients – determining client goals, approving designs, etc.",
+                    "title": "HTML5 Interactive Banners",
+                    "description": "Created interactive HTML5 ads for EU/UK publishers, focusing on responsive, mobile-first ads. Collaborated with clients on design and animations prototyping for their ads.",
                     "achievements": [
                         "Created interactive ads for various EU/UK publishers such as Aftonbladet, Sky, etc.",
                         "Collaborated with clients on design and animations prototyping for their ads",
-                        "Improved ads by reducing the weight of assets (video, images) but maintaining quality and adding statistics to track possible future improvements"
+                        "Improved ads by reducing the weight of assets (video, images) while maintaining quality and adding statistics to track possible future improvements"
                     ],
                     "tools": "HTML5, Vanilla JavaScript, Canvas, CSS"
                 }
