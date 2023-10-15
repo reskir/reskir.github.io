@@ -5,7 +5,13 @@
             "logo": "wix.svg",
             "years": "August 2023 - current",
             "url": "https://wix.com",
-            "projects": []
+            "projects": [
+                {
+                    "title": "Blog",
+                    "description": "Blog app in Wix",
+                    "tools": "Vanilla JS, Typescript, React"
+                }
+            ]
         },
         {
             "title": "Coherent Solutions",
