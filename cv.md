@@ -14,7 +14,7 @@ description: My experience
 
         <div class="job">
                 <div class="info">
-                    <a href="{{company.url}}" rel="follow">{% asset {{company.logo}} width="100" alt={{company.title}} %}</a>
+                    <a href="{{company.url}}" rel="follow">{% asset {{company.logo}} width="120" alt={{company.title}} class="company-logo" %}</a>
                     <div class="text-secondary fontSize-small">{{company.years}}</div>
                 </div>
 

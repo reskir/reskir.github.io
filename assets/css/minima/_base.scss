@@ -3,12 +3,14 @@ html[data-theme='light'] {
     --color-page-background: #{$background-color-light};
     --color-text: #{$text-color-light};
     --border-color: #{$grey-color-light};
+    --company-logo-bg: transparent;
 }
 
 html[data-theme='dark'] {
     --color-page-background: #{$background-color-dark};
     --color-text: #{$text-color-dark};
     --border-color: #{$grey-color-dark};
+    --company-logo-bg: #{$background-color-light};
 }
 
 /**
