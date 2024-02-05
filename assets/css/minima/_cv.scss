@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .jobs {
     @include flexDirectionColumn;
     gap: 32px;
@@ -36,6 +37,6 @@
 }
 
 .company-logo {
-    background-color: var(--company-logo-bg);
     padding:12px;
+    filter: var(--compay-logo-filter);
 }

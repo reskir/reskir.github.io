@@ -4,6 +4,7 @@ html[data-theme='light'] {
     --color-text: #{$text-color-light};
     --border-color: #{$grey-color-light};
     --company-logo-bg: transparent;
+    --compay-logo-filter: brightness(1) invert(0);
 }
 
 html[data-theme='dark'] {
@@ -11,6 +12,7 @@ html[data-theme='dark'] {
     --color-text: #{$text-color-dark};
     --border-color: #{$grey-color-dark};
     --company-logo-bg: #{$background-color-light};
+    --compay-logo-filter: brightness(0) invert(1);
 }
 
 /**
