@@ -40,3 +40,24 @@
     padding:12px;
     filter: var(--compay-logo-filter);
 }
+
+.export-btn {
+    padding: 8px 16px;
+    background: var(--link-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 16px;
+    font-size: 14px;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+@media print {
+    .export-btn {
+        display: none;
+    }
+}

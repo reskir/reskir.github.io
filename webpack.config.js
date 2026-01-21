@@ -18,6 +18,7 @@ module.exports = (env) => ({
             "github-page-status.tsx"
         ),
         main: path.resolve(__dirname, "main.ts"),
+        "cv-export": path.resolve(__dirname, "src", "cv-export.ts"),
     },
     output: {
         path: path.resolve(__dirname, "assets/javascript"),
