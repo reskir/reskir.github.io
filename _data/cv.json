@@ -8,7 +8,7 @@
             "projects": [
                 {
                     "title": "Blog",
-                    "description": "Blog app in Wix",
+                    "description": "Implemented a bunch of features related to AI: post generation, AI-assistants for categories and tags creation. Improved the quality of the product by migrating to TypeScript and modern UI tools for managing state. Contributed to different projects within the Wix company. ",
                     "tools": "Vanilla JS, Typescript, React"
                 }
             ]
