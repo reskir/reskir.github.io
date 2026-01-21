@@ -5,7 +5,7 @@ permalink: /cv/
 description: My experience
 ---
 
-<strong><a href="/assets/docs/cv-fe-developer-kiril-abaskin.pdf">cv-fe-developer-kiril-abaskin.pdf</a></strong>
+<strong><a href="/assets/docs/cv-fe-developer-kiril-abaskin-2026.pdf">cv-fe-developer-kiril-abaskin.pdf</a></strong>
 
 <br />
 
