@@ -1,4 +1,18 @@
 {
+    "contact": {
+        "email": "kiril.abashkin@gmail.com",
+        "linkedin": "linkedin.com/in/kirilab",
+        "github": "github.com/reskir"
+    },
+    "summary": "Senior Frontend Developer with 10+ years of experience building scalable web applications. Specialized in React, TypeScript, and modern frontend architecture. Proven track record of leading teams and delivering high-impact features at companies like Wix and 1stDibs.",
+    "skills": {
+        "Frontend": "React, TypeScript, JavaScript, HTML5, CSS3",
+        "State Management": "Redux, React Query, Relay",
+        "Build Tools": "Webpack, Rollup, Lerna",
+        "Backend": "Node.js, Express, GraphQL",
+        "Testing": "Jest, React Testing Library",
+        "Other": "Git, CI/CD, Agile"
+    },
     "companies": [
         {
             "title": "Wix",
@@ -20,40 +34,15 @@
             "url": "https://coherentsolutions.com",
             "projects": [
                 {
-                    "title": "Self-service portal",
-                    "client": {
-                        "url": "https://www.warbyparker.com/",
-                        "title": "Warby Parker"
-                    },
-                    "description": "As a Frontend Developer at Warby Parker, I played a pivotal role in the conceptualization, design, and implementation of a cutting-edge self-service portal. Leveraging my expertise in frontend technologies, I developed a user-friendly interface that empowered clients to perform essential tasks, such as measuring pupillary distance and seamlessly ordering new lenses.",
-                    "tools": "React, React-Query, TypeScript"
-                },
-                {
-                    "title": "Communications",
-                    "client": {
-                        "url": "https://www.achieveloans.com/",
-                        "title": "Achieve Loans"
-                    },
-                    "description": "Developed an internal UI for client communication, encompassing SMS/email history, integration with Firebase and external APIs. Implemented features allowing mortgage advisors to send emails or SMS, maintain conversations, and view a comprehensive history within the internal user management system.",
-                    "tools": "React, React-Query, TypeScript, EmotionJS, MUI"
-                },
-                {
-                    "title": "Custom Chat",
-                    "client": {
-                        "url": "https://www.achieveloans.com/",
-                        "title": "Achieve Loans"
-                    },
-                    "description": "Designed and implemented a custom chat system for both internal and external clients. Managed stateless web sockets API from LiveChat for controlling notifications, chat history, and handling unresponsive chats by transferring them to available agents.",
-                    "tools": "TypeScript, React, Redux, Web Sockets, LiveChat API, Jest"
-                },
-                {
-                    "title": "Monorepo",
-                    "client": {
-                        "url": "https://www.achieveloans.com/",
-                        "title": "Achieve Loans"
-                    },
-                    "description": "Established a solution for managing reusable packages for frontend applications. Organized workflows for building, deploying, and publishing using Lerna, and migrated all packages from different repositories while preserving commit history. Implemented conventional commits for accurate package versioning.",
-                    "tools": "Lerna, Rollup, Shell, GitHub Actions"
+                    "title": "Frontend Developer",
+                    "description": "Developed user-facing applications including a self-service portal for measuring pupillary distance and ordering lenses, internal communication tools with SMS/email integration, and a real-time chat system using WebSockets. Established a monorepo solution for managing reusable packages across frontend applications with automated build, deploy, and publishing workflows.",
+                    "achievements": [
+                        "Built a self-service portal enabling users to perform tasks like measuring pupillary distance and ordering lenses",
+                        "Developed internal communication UI with SMS/email integration for sending to users",
+                        "Implemented a custom chat system with WebSockets for real-time notifications and chat history",
+                        "Created a monorepo infrastructure using Lerna with conventional commits for accurate package versioning"
+                    ],
+                    "tools": "React, React-Query, TypeScript, Redux, MUI, EmotionJS, Web Sockets, Lerna, Rollup, GitHub Actions, Jest"
                 }
             ]
         },

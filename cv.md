@@ -4,12 +4,17 @@ title: CV
 permalink: /cv/
 description: My experience
 ---
+<script defer src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+<button id="export-cv-btn" class="export-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+    </svg>
+    <span>Export to PDF</span>
+</button>
 
-<strong><a href="/assets/docs/cv-fe-developer-kiril-abaskin-2026.pdf">cv-fe-developer-kiril-abaskin.pdf</a></strong>
-
-<br />
-
-<div class="jobs">
+<div class="jobs" id="cv">
     {% for company in site.data.cv.companies %}
 
         <div class="job">
@@ -46,3 +51,11 @@ description: My experience
     {% endfor %}
 
 </div>
+
+
+
+{% asset cv-export.js %}
+<script>
+    const cvData = {{ site.data.cv | jsonify }};
+    document.addEventListener('DOMContentLoaded', () => initCvExport(cvData));
+</script>
