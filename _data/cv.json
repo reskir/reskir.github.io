@@ -4,7 +4,7 @@
         "linkedin": "linkedin.com/in/kirilab",
         "github": "github.com/reskir"
     },
-    "summary": "Senior Frontend Developer with 10+ years of experience building scalable web applications. Specialized in React, TypeScript, and modern frontend architecture. Proven track record of leading teams and delivering high-impact features at companies like Wix and 1stDibs.",
+    "summary": "Senior Frontend Developer with over 10 years of experience architecting and delivering scalable web applications. Specialized in React, TypeScript, and modern frontend architecture with a proven track record of leading cross-functional teams and shipping high-impact features at companies including Wix and 1stDibs.",
     "skills": {
         "Frontend": "React, TypeScript, JavaScript, HTML5, CSS3",
         "State Management": "Redux, React Query, Relay",
@@ -22,7 +22,7 @@
             "projects": [
                 {
                     "title": "Blog",
-                    "description": "Implemented a bunch of features related to AI: post generation, AI-assistants for categories and tags creation. Improved the quality of the product by migrating to TypeScript and modern UI tools for managing state. Contributed to different projects within the Wix company. ",
+                    "description": "Developed AI-powered features including automated post generation and intelligent assistants for content categorization and tagging. Elevated code quality by driving migration to TypeScript and adopting modern state management patterns. Contributed to cross-team initiatives across multiple Wix products.",
                     "tools": "Vanilla JS, Typescript, React"
                 }
             ]
@@ -35,12 +35,12 @@
             "projects": [
                 {
                     "title": "Frontend Developer",
-                    "description": "Developed user-facing applications including a self-service portal for measuring pupillary distance and ordering lenses, internal communication tools with SMS/email integration, and a real-time chat system using WebSockets. Established a monorepo solution for managing reusable packages across frontend applications with automated build, deploy, and publishing workflows.",
+                    "description": "Developed customer-facing applications including a self-service optical portal, omnichannel communication tools with SMS and email integration, and a real-time messaging system powered by WebSockets. Architected a monorepo infrastructure for managing shared packages across frontend applications with automated build, deployment, and publishing pipelines.",
                     "achievements": [
-                        "Built a self-service portal enabling users to perform tasks like measuring pupillary distance and ordering lenses",
-                        "Developed internal communication UI with SMS/email integration for sending to users",
-                        "Implemented a custom chat system with WebSockets for real-time notifications and chat history",
-                        "Created a monorepo infrastructure using Lerna with conventional commits for accurate package versioning"
+                        "Designed and built a self-service optical portal enabling users to measure pupillary distance and order prescription lenses",
+                        "Developed an omnichannel communication interface integrating SMS and email outreach capabilities",
+                        "Engineered a real-time chat system leveraging WebSockets for instant notifications and persistent message history",
+                        "Architected a monorepo infrastructure using Lerna with conventional commits to ensure semantic versioning accuracy across packages"
                     ],
                     "tools": "React, React-Query, TypeScript, Redux, MUI, EmotionJS, Web Sockets, Lerna, Rollup, GitHub Actions, Jest"
                 }
@@ -54,42 +54,42 @@
             "projects": [
                 {
                     "title": "Growth (SEO)",
-                    "description": "Implemented various internal and external strategies to enhance search engine ranking, reduce bounce rates, and optimize user experience with automatically generated content.",
+                    "description": "Drove organic growth by implementing on-page and off-page SEO strategies to improve search engine rankings, reduce bounce rates, and enhance user engagement through programmatically generated content.",
                     "achievements": [
-                        "Executed diverse strategies for increasing traffic",
-                        "Developed internal tools for configuring and improving SEO",
-                        "Migrated Q&A project from WordPress to a React, Relay, and GraphQL stack"
+                        "Implemented data-driven strategies that contributed to measurable organic traffic growth",
+                        "Built internal tooling for SEO configuration, auditing, and performance optimization",
+                        "Migrated the Q&A platform from WordPress to a modern React, Relay, and GraphQL architecture"
                     ],
                     "tools": "React, GraphQL, Relay, Redux, TypeScript, Express.js, Fastify"
                 },
                 {
                     "title": "User Onboarding / Personalized Experience",
-                    "description": "Led a project aimed at generating more users and gathering information for creating a personalized experience in terms of product prices, verticals, etc.",
+                    "description": "Led a strategic initiative to increase user acquisition and collect preference data to deliver personalized experiences across product pricing, categories, and verticals.",
                     "achievements": [
-                        "Introduced an email-only registration flow",
-                        "Implemented an interactive questionnaire for personalizing user experience based on responses",
-                        "Enhanced the UX of onboarding for new users"
+                        "Designed and launched a streamlined email-only registration flow to reduce sign-up friction",
+                        "Built an interactive onboarding questionnaire to tailor content and recommendations based on user preferences",
+                        "Redesigned the onboarding experience to improve new user activation and engagement"
                     ],
                     "tools": "React, GraphQL, Relay, Redux, TypeScript, Express.js, Fastify"
                 },
                 {
                     "title": "Internationalization and Localization",
-                    "description": "Internationalized and localized buyer-side web applications. Developed an automated pipeline for translations, supporting new domains (fr, co.uk, de).",
+                    "description": "Internationalized and localized the buyer-facing web application to support expansion into European markets. Built an automated translation pipeline serving regional domains (fr, co.uk, de).",
                     "achievements": [
-                        "Localized the buyer side of the 1stDibs platform",
-                        "Implemented an automated pipeline for translating American English to different languages such as German, French, and British English",
-                        "Migrated and ensured correct locale by domain"
+                        "Led the full localization of the buyer-facing 1stDibs platform",
+                        "Built an automated translation pipeline supporting American English to German, French, and British English",
+                        "Implemented domain-based locale routing to ensure region-appropriate content delivery"
                     ],
                     "tools": "React-Intl, React, GraphQL, Relay, Express.js, Nginx"
                 },
                 {
                     "title": "Search & Browse, Product Page Refactoring",
-                    "description": "Rewrote search and browse, product pages with React, Relay, and GraphQL. Migrated code from PHP to a new technological stack, optimizing UI for the best mobile experience and creating a mobile-first application version.",
+                    "description": "Rebuilt search, browse, and product detail pages using React, Relay, and GraphQL, migrating from a legacy PHP codebase. Optimized the interface for mobile devices and delivered a mobile-first application experience.",
                     "achievements": [
-                        "Rewrote search and browse pages from PHP to React, Relay, and GraphQL",
-                        "Optimized UI for the best mobile experience",
-                        "Created a mobile-first application version",
-                        "Migrated all parts to the new codebase and updated UI"
+                        "Rewrote core search and browse pages, migrating from PHP to React, Relay, and GraphQL",
+                        "Optimized the interface for mobile performance and usability",
+                        "Delivered a mobile-first application version aligned with responsive design best practices",
+                        "Completed full migration to the modern stack with a refreshed UI across all pages"
                     ],
                     "tools": "React, Relay, TypeScript, GraphQL, Lodash, Express.js"
                 }
@@ -103,31 +103,31 @@
             "projects": [
                 {
                     "title": "Styleguide Driven Development",
-                    "description": "Implemented style guides for the UI library, maintaining UX consistency across 18 projects built by different teams. Trained developers on the use and implementation of the UI library.",
+                    "description": "Established and maintained a comprehensive style guide for the UI component library, ensuring UX consistency across 18 products developed by multiple teams. Provided technical guidance and training to developers on library adoption and implementation.",
                     "achievements": [
-                        "Documented and created different UI modules for usage in other projects",
-                        "Continuously updated and maintained consistent UI/UX experience across the platform",
-                        "Conducted presentations and training for other developers on using and implementing our UI library within organizational projects"
+                        "Authored documentation and developed reusable UI modules adopted across multiple product teams",
+                        "Maintained a unified UI/UX standard across the platform through continuous updates and quality reviews",
+                        "Led presentations and hands-on training sessions to onboard developers on UI library adoption and best practices"
                     ],
                     "tools": "Web Components, Node.js, jQuery, Backbone.js, JavaScript"
                 },
                 {
                     "title": "UI Library for Internal Products",
-                    "description": "Maintained and improved the internal UI library used for numerous internal projects. Created and updated UI components, assisted other teams in implementing those components, and provided support and bug fixes.",
+                    "description": "Maintained and enhanced the organization-wide UI component library. Developed and iterated on core UI components, provided cross-team implementation support, and resolved component-level defects.",
                     "achievements": [
-                        "Created and maintained different UI elements (datepicker, grid, multi-select) for our UI library",
-                        "Documented and assisted other teams in implementing those UI elements in their projects",
-                        "Provided support and bug fixes for components"
+                        "Developed and maintained core UI components including datepicker, data grid, and multi-select controls",
+                        "Authored component documentation and provided hands-on integration support to product teams",
+                        "Triaged and resolved component defects to maintain library reliability and stability"
                     ],
                     "tools": "HTML5, Vanilla JavaScript, jQuery, Backbone.js, Lodash, Styleguide Driven Development"
                 },
                 {
                     "title": "HTML5 Interactive Banners",
-                    "description": "Created interactive HTML5 ads for EU/UK publishers, focusing on responsive, mobile-first ads. Collaborated with clients on design and animations prototyping for their ads.",
+                    "description": "Developed interactive HTML5 ad units for major European and UK publishers, with a focus on responsive, mobile-first design. Partnered with clients to prototype custom designs and animations.",
                     "achievements": [
-                        "Created interactive ads for various EU/UK publishers such as Aftonbladet, Sky, etc.",
-                        "Collaborated with clients on design and animations prototyping for their ads",
-                        "Improved ads by reducing the weight of assets (video, images) while maintaining quality and adding statistics to track possible future improvements"
+                        "Delivered interactive rich-media ad units for premium publishers including Aftonbladet and Sky",
+                        "Partnered with clients to prototype and iterate on custom ad designs and animations",
+                        "Optimized asset delivery by reducing file sizes for video and images without compromising quality, and integrated analytics to measure performance and inform future iterations"
                     ],
                     "tools": "HTML5, Vanilla JavaScript, Canvas, CSS"
                 }
