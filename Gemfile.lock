@@ -132,7 +132,6 @@ DEPENDENCIES
   kramdown-parser-gfm
   mini_magick
   minima (~> 2.0)
-  nokogiri (>= 1.12.5)
   sprockets (~> 3.7)
 
 BUNDLED WITH
