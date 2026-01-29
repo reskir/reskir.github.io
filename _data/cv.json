@@ -36,12 +36,12 @@
                 {
                     "title": "Frontend Developer",
                     "description": "Developed customer-facing applications including a self-service optical portal, omnichannel communication tools with SMS and email integration, and a real-time messaging system powered by WebSockets. Architected a monorepo infrastructure for managing shared packages across frontend applications with automated build, deployment, and publishing pipelines.",
-                    "achievements": [
-                        "Designed and built a self-service optical portal enabling users to measure pupillary distance and order prescription lenses",
-                        "Developed an omnichannel communication interface integrating SMS and email outreach capabilities",
-                        "Engineered a real-time chat system leveraging WebSockets for instant notifications and persistent message history",
-                        "Architected a monorepo infrastructure using Lerna with conventional commits to ensure semantic versioning accuracy across packages"
-                    ],
+                    // "achievements": [
+                    //     "Designed and built a self-service optical portal enabling users to measure pupillary distance and order prescription lenses",
+                    //     "Developed an omnichannel communication interface integrating SMS and email outreach capabilities",
+                    //     "Engineered a real-time chat system leveraging WebSockets for instant notifications and persistent message history",
+                    //     "Architected a monorepo infrastructure using Lerna with conventional commits to ensure semantic versioning accuracy across packages"
+                    // ],
                     "tools": "React, React-Query, TypeScript, Redux, MUI, EmotionJS, Web Sockets, Lerna, Rollup, GitHub Actions, Jest"
                 }
             ]
@@ -55,42 +55,42 @@
                 {
                     "title": "Growth (SEO)",
                     "description": "Drove organic growth by implementing on-page and off-page SEO strategies to improve search engine rankings, reduce bounce rates, and enhance user engagement through programmatically generated content.",
-                    "achievements": [
-                        "Implemented data-driven strategies that contributed to measurable organic traffic growth",
-                        "Built internal tooling for SEO configuration, auditing, and performance optimization",
-                        "Migrated the Q&A platform from WordPress to a modern React, Relay, and GraphQL architecture"
-                    ],
+                    // "achievements": [
+                    //     "Implemented data-driven strategies that contributed to measurable organic traffic growth",
+                    //     "Built internal tooling for SEO configuration, auditing, and performance optimization",
+                    //     "Migrated the Q&A platform from WordPress to a modern React, Relay, and GraphQL architecture"
+                    // ],
                     "tools": "React, GraphQL, Relay, Redux, TypeScript, Express.js, Fastify"
                 },
                 {
                     "title": "User Onboarding / Personalized Experience",
                     "description": "Led a strategic initiative to increase user acquisition and collect preference data to deliver personalized experiences across product pricing, categories, and verticals.",
-                    "achievements": [
-                        "Designed and launched a streamlined email-only registration flow to reduce sign-up friction",
-                        "Built an interactive onboarding questionnaire to tailor content and recommendations based on user preferences",
-                        "Redesigned the onboarding experience to improve new user activation and engagement"
-                    ],
+                    // "achievements": [
+                    //     "Designed and launched a streamlined email-only registration flow to reduce sign-up friction",
+                    //     "Built an interactive onboarding questionnaire to tailor content and recommendations based on user preferences",
+                    //     "Redesigned the onboarding experience to improve new user activation and engagement"
+                    // ],
                     "tools": "React, GraphQL, Relay, Redux, TypeScript, Express.js, Fastify"
                 },
                 {
                     "title": "Internationalization and Localization",
                     "description": "Internationalized and localized the buyer-facing web application to support expansion into European markets. Built an automated translation pipeline serving regional domains (fr, co.uk, de).",
-                    "achievements": [
-                        "Led the full localization of the buyer-facing 1stDibs platform",
-                        "Built an automated translation pipeline supporting American English to German, French, and British English",
-                        "Implemented domain-based locale routing to ensure region-appropriate content delivery"
-                    ],
+                    // "achievements": [
+                    //     "Led the full localization of the buyer-facing 1stDibs platform",
+                    //     "Built an automated translation pipeline supporting American English to German, French, and British English",
+                    //     "Implemented domain-based locale routing to ensure region-appropriate content delivery"
+                    // ],
                     "tools": "React-Intl, React, GraphQL, Relay, Express.js, Nginx"
                 },
                 {
                     "title": "Search & Browse, Product Page Refactoring",
                     "description": "Rebuilt search, browse, and product detail pages using React, Relay, and GraphQL, migrating from a legacy PHP codebase. Optimized the interface for mobile devices and delivered a mobile-first application experience.",
-                    "achievements": [
-                        "Rewrote core search and browse pages, migrating from PHP to React, Relay, and GraphQL",
-                        "Optimized the interface for mobile performance and usability",
-                        "Delivered a mobile-first application version aligned with responsive design best practices",
-                        "Completed full migration to the modern stack with a refreshed UI across all pages"
-                    ],
+                    // "achievements": [
+                    //     "Rewrote core search and browse pages, migrating from PHP to React, Relay, and GraphQL",
+                    //     "Optimized the interface for mobile performance and usability",
+                    //     "Delivered a mobile-first application version aligned with responsive design best practices",
+                    //     "Completed full migration to the modern stack with a refreshed UI across all pages"
+                    // ],
                     "tools": "React, Relay, TypeScript, GraphQL, Lodash, Express.js"
                 }
             ]
@@ -104,31 +104,31 @@
                 {
                     "title": "Styleguide Driven Development",
                     "description": "Established and maintained a comprehensive style guide for the UI component library, ensuring UX consistency across 18 products developed by multiple teams. Provided technical guidance and training to developers on library adoption and implementation.",
-                    "achievements": [
-                        "Authored documentation and developed reusable UI modules adopted across multiple product teams",
-                        "Maintained a unified UI/UX standard across the platform through continuous updates and quality reviews",
-                        "Led presentations and hands-on training sessions to onboard developers on UI library adoption and best practices"
-                    ],
+                    // "achievements": [
+                    //     "Authored documentation and developed reusable UI modules adopted across multiple product teams",
+                    //     "Maintained a unified UI/UX standard across the platform through continuous updates and quality reviews",
+                    //     "Led presentations and hands-on training sessions to onboard developers on UI library adoption and best practices"
+                    // ],
                     "tools": "Web Components, Node.js, jQuery, Backbone.js, JavaScript"
                 },
                 {
                     "title": "UI Library for Internal Products",
                     "description": "Maintained and enhanced the organization-wide UI component library. Developed and iterated on core UI components, provided cross-team implementation support, and resolved component-level defects.",
-                    "achievements": [
-                        "Developed and maintained core UI components including datepicker, data grid, and multi-select controls",
-                        "Authored component documentation and provided hands-on integration support to product teams",
-                        "Triaged and resolved component defects to maintain library reliability and stability"
-                    ],
+                    // "achievements": [
+                    //     "Developed and maintained core UI components including datepicker, data grid, and multi-select controls",
+                    //     "Authored component documentation and provided hands-on integration support to product teams",
+                    //     "Triaged and resolved component defects to maintain library reliability and stability"
+                    // ],
                     "tools": "HTML5, Vanilla JavaScript, jQuery, Backbone.js, Lodash, Styleguide Driven Development"
                 },
                 {
                     "title": "HTML5 Interactive Banners",
                     "description": "Developed interactive HTML5 ad units for major European and UK publishers, with a focus on responsive, mobile-first design. Partnered with clients to prototype custom designs and animations.",
-                    "achievements": [
-                        "Delivered interactive rich-media ad units for premium publishers including Aftonbladet and Sky",
-                        "Partnered with clients to prototype and iterate on custom ad designs and animations",
-                        "Optimized asset delivery by reducing file sizes for video and images without compromising quality, and integrated analytics to measure performance and inform future iterations"
-                    ],
+                    // "achievements": [
+                    //     "Delivered interactive rich-media ad units for premium publishers including Aftonbladet and Sky",
+                    //     "Partnered with clients to prototype and iterate on custom ad designs and animations",
+                    //     "Optimized asset delivery by reducing file sizes for video and images without compromising quality, and integrated analytics to measure performance and inform future iterations"
+                    // ],
                     "tools": "HTML5, Vanilla JavaScript, Canvas, CSS"
                 }
             ]
