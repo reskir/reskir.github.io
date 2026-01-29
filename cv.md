@@ -1,7 +1,9 @@
 ---
 layout: page
-title: CV
-permalink: /cv/
+title: Résumé
+permalink: /résumé/
+redirect_from:
+ - /cv
 description: My experience
 ---
 <script defer src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
