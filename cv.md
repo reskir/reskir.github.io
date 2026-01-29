@@ -4,6 +4,7 @@ title: Résumé
 permalink: /résumé/
 redirect_from:
  - /cv
+ - /cv/
 description: My experience
 ---
 <script defer src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
