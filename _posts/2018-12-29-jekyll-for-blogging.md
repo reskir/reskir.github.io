@@ -31,5 +31,5 @@ For my blogs I usually reuse the same plugins, the most useful I found are these
 
 #### CI/CD
 
-Since github is capable of serving jekyll websites it is quite easy to setup whole pipeline for testing, building and deploying your jekyll websites.
+Since github is capable of serving jekyll websites it is quite easy to setup whole pipeline for testing, building and deploying your jekyll websites. You can use github actions to build and deploy your website. You can find the configuration in the `.github/workflows/github-pages.yml` file.
 
