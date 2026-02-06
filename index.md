@@ -28,19 +28,23 @@ Contact me by <a href="mailto:kiril.abashkin@gmail.com">email</a> or find me on
 
 <h4>Latest build of this webpage</h4>
 <div>
-    <div>
+  <div style="display: flex; flex-direction: row; align-items: center; gap: 12px;">
+    <a href="{{github.pusher.html_url}}">
+        <img
+            style="border-radius: 50%;"
+            src="{{github.pusher.avatar_url}}"
+            width="50"
+        />
+    </a>
+    <div style="display: flex; flex-direction: column; gap: 2px;">
     {% if github.status == "built" %}
         <div>
-            Status: <strong>success</strong> ✅
+            Status: <a href="{{ github.url }}"><strong>{{ github.status }}</strong></a> ✅ by <a href="{{ github.pusher.html_url }}">{{ github.pusher.login }}</a>
         </div>
     {% endif %}
-    {% if github.status == "errored" %}
-        <div>
-            Status: error ❌
-        </div>
-    {% endif %}
-        <div>
-            Created at: {{ github.created_at | date: "%Y-%m-%d %H:%M:%S" }}
-        </div>
+    <div>
+     Created at: <strong>{{ github.created_at | date: "%Y-%m-%d %H:%M:%S" }}</strong>
+     </div>
+    </div>
     </div>
 </div>
