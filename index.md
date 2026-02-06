@@ -39,7 +39,7 @@ Contact me by <a href="mailto:kiril.abashkin@gmail.com">email</a> or find me on
     <div style="display: flex; flex-direction: column; gap: 2px;">
     {% if github.status == "built" %}
         <div>
-            Status: <a href="{{ github.url }}"><strong>{{ github.status }}</strong></a> ✅ by <a href="{{ github.pusher.html_url }}">{{ github.pusher.login }}</a>
+            Status: <strong>{{ github.status }}</strong> ✅ by <a href="{{ github.pusher.html_url }}">{{ github.pusher.login }}</a>
         </div>
     {% endif %}
     <div>
