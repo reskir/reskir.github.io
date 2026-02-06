@@ -10,9 +10,11 @@ vendor/ruby/
 .jekyll-cache/
 _vendor/
 yarn-error.log
+api/
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.env

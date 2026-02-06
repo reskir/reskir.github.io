@@ -7,7 +7,7 @@ module.exports = (env) => ({
         react: "React",
         "react-dom": "ReactDOM",
     },
-    watch: true,
+    watch: env.production ? false : true,
     watchOptions: {
         ignored: /node_modules/,
     },

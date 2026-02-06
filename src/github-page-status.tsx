@@ -26,15 +26,11 @@ export const GHPageStatus = () => {
     const { data, isLoading, isError } = useQuery({
         queryKey: ["git-status"],
         queryFn: async () => {
-            const response = await fetch(
-                "https://api.github.com/repos/reskir/reskir.github.io/pages/builds/latest",
-                {
-                    headers: {
-                        "Content-Type": "application/vnd.github+json",
-                    },
-                }
-            );
-            return await response.json();
+            const response = await fetch("/api/github-status.json");
+            if (!response.ok) {
+                throw new Error("Failed to fetch build status");
+            }
+            return response.json();
         },
     });
 
@@ -42,7 +38,7 @@ export const GHPageStatus = () => {
         return <div>Loading...</div>;
     }
 
-    if (isError) {
+    if (isError || !data) {
         return null;
     }
 
@@ -57,19 +53,28 @@ export const GHPageStatus = () => {
                     alignItems: "center",
                 }}
             >
-                <div>
-                    <a href={data.pusher.html_url}>
-                        <img
-                            style={{ borderRadius: "50%" }}
-                            src={data.pusher.avatar_url}
-                            width="50"
-                        />
-                    </a>
-                </div>
+                {data.pusher && (
+                    <div>
+                        <a href={data.pusher.html_url}>
+                            <img
+                                style={{ borderRadius: "50%" }}
+                                src={data.pusher.avatar_url}
+                                width="50"
+                            />
+                        </a>
+                    </div>
+                )}
                 <div>
                     <div>
-                        Status: {data.status} ✅ by{" "}
-                        <a href={data.pusher.html_url}>{data.pusher.login}</a>
+                        Status: {data.status} ✅
+                        {data.pusher && (
+                            <>
+                                {" "}by{" "}
+                                <a href={data.pusher.html_url}>
+                                    {data.pusher.login}
+                                </a>
+                            </>
+                        )}
                     </div>
                     <div>
                         Created at:{" "}

@@ -23,3 +23,6 @@ Contact me by <a href="mailto:kiril.abashkin@gmail.com">email</a> or find me on
 <p>
   <a href="/about">More information on my skills and experience</a>
 </p>
+
+<div id="github-status"></div>
+{% asset github-status.js %}
