@@ -11,6 +11,7 @@ vendor/ruby/
 _vendor/
 yarn-error.log
 api/
+_data/github-status.json
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

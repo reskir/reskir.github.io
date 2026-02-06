@@ -24,5 +24,23 @@ Contact me by <a href="mailto:kiril.abashkin@gmail.com">email</a> or find me on
   <a href="/about">More information on my skills and experience</a>
 </p>
 
-<div id="github-status"></div>
-{% asset github-status.js %}
+{% assign github = site.data.github-status %}
+
+<h4>Latest build of this webpage</h4>
+<div>
+    <div>
+    {% if github.status == "built" %}
+        <div>
+            Status: <strong>success</strong> ✅
+        </div>
+    {% endif %}
+    {% if github.status == "errored" %}
+        <div>
+            Status: error ❌
+        </div>
+    {% endif %}
+        <div>
+            Created at: {{ github.created_at | date: "%Y-%m-%d %H:%M:%S" }}
+        </div>
+    </div>
+</div>
