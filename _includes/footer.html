@@ -9,9 +9,9 @@
       {% assign github = site.data.github-status %}
       {% if github %}
       <div class="footer-col footer-col-1" style="font-size: 0.75rem; margin-top: 12px;">
-        <div style="display: flex; flex-direction: row; align-items: center; gap: 8px;">
+        <div style="display: flex; flex-direction: row; align-items: center; gap: 12px;">
           <a href="{{github.pusher.html_url}}">
-            <img style="border-radius: 50%;" src="{{github.pusher.avatar_url}}" width="24" />
+            <img style="border-radius: 50%;" src="{{github.pusher.avatar_url}}" width="40" />
           </a>
           <div>
             {% if github.status == "built" %}
