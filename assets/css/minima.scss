@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Brandon Text';
+    src: asset_url('woff2/BrandonText-Light.woff2') format('woff2'),
+        asset_url('woff/BrandonText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brandon Text';
+    src: asset_url('woff2/BrandonText-Regular.woff2') format('woff2'),
+        asset_url('woff/BrandonText-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brandon Text';
+    src: asset_url('woff2/BrandonText-Medium.woff2') format('woff2'),
+        asset_url('woff/BrandonText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brandon Text';
+    src: asset_url('woff2/BrandonText-Bold.woff2') format('woff2'),
+        asset_url('woff/BrandonText-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+// Define defaults for each variable.
+
+$base-font-family: 'Brandon Text', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol' !default;
+$base-font-size: 18px !default;
+$base-font-weight: 400 !default;
+$heading-font-weight: 900 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit: 30px !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width: 800px !default;
+
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin relative-font-size($ratio) {
+    font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import 'minima/colors', 'minima/base', 'minima/layout',
+    'minima/syntax-highlighting', 'minima/_about', 'minima/helpers',
+    'minima/_cv';
