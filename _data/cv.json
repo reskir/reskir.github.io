@@ -15,6 +15,19 @@
     },
     "companies": [
         {
+            "title": "ProfileMyIp",
+            "logo": "profilemyip.svg",
+            "years": "January 2026 - Present",
+            "url": "https://profilemyip.com",
+            "projects": [
+                {
+                    "title": "Owner",
+                    "description": "Leading development for a SaaS platform providing IP intelligence and cybersecurity solutions.",
+                    "tools": "React, TypeScript, Tailwind CSS, Next.js, Node.js, Express.js, Postgres"
+                }
+            ]
+        },
+        {
             "title": "Wix",
             "logo": "wix.svg",
             "years": "August 2023 - January 2026",
