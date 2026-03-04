@@ -204,6 +204,16 @@ function initCvExport(cvData) {
                 setFont("bold");
                 doc.setTextColor(...colors.black);
                 doc.text(company.title, margin, y);
+
+                // URL - small grey, on the same baseline
+                if (company.url) {
+                    const companyTitleWidth = doc.getTextWidth(company.title);
+                    doc.setFontSize(8);
+                    setFont("normal");
+                    doc.setTextColor(...colors.lightGrey);
+                    doc.text(company.url, margin + companyTitleWidth + 3, y);
+                }
+
                 y += sp.line;
 
                 // Date

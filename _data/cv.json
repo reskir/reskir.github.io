@@ -28,14 +28,14 @@
             ]
         },
         {
-            "title": "Wix",
+            "title": "WIX",
             "logo": "wix.svg",
             "years": "August 2023 - January 2026",
             "url": "https://wix.com",
             "projects": [
                 {
-                    "title": "Blog",
-                    "description": "Developed AI-powered features including automated post generation and intelligent assistants for content categorization and tagging. Elevated code quality by driving migration to TypeScript and adopting modern state management patterns. Contributed to cross-team initiatives across multiple Wix products.",
+                    "title": "Senior Frontend Developer within the Blog team",
+                    "description": "Developed AI-powered features including automated post generation and intelligent assistants for content categorization and tagging. Elevated code quality by driving migration to TypeScript and adopting modern state management patterns. Contributed to cross-team initiatives across multiple WIX products.",
                     "tools": "Vanilla JS, Typescript, React"
                 }
             ]
@@ -47,7 +47,7 @@
             "url": "https://coherentsolutions.com",
             "projects": [
                 {
-                    "title": "Frontend Developer",
+                    "title": "Senior Frontend Developer",
                     "description": "Developed customer-facing applications including a self-service optical portal, omnichannel communication tools with SMS and email integration, and a real-time messaging system powered by WebSockets. Architected a monorepo infrastructure for managing shared packages across frontend applications with automated build, deployment, and publishing pipelines.",
                     // "achievements": [
                     //     "Designed and built a self-service optical portal enabling users to measure pupillary distance and order prescription lenses",
