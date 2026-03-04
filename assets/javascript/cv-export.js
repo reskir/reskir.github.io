@@ -196,31 +196,33 @@ function initCvExport(cvData) {
             y += sp.section;
 
             // Companies
-            cvData.companies.forEach((company, companyIndex) => {
+            cvData.companies.forEach((company) => {
                 checkPageBreak(25);
 
-                // Project title (role) - Bold
+                // Company name - top level, bold
+                doc.setFontSize(12);
+                setFont("bold");
+                doc.setTextColor(...colors.black);
+                doc.text(company.title, margin, y);
+                y += sp.line;
+
+                // Date
+                doc.setFontSize(9);
+                setFont("normal");
+                doc.setTextColor(...colors.lightGrey);
+                doc.text(company.years, margin, y);
+                y += sp.section;
+
+                // Projects under the company
                 company.projects.forEach((project) => {
                     checkPageBreak(20);
 
-                    doc.setFontSize(11);
-                    setFont("bold");
-                    doc.setTextColor(...colors.black);
-                    doc.text(project.title, margin, y);
-                    y += sp.line;
-
-                    // Company name
+                    // Team / project title - indented, semibold
                     doc.setFontSize(10);
-                    setFont("normal");
+                    setFont("semibold");
                     doc.setTextColor(...colors.dark);
-                    doc.text(company.title, margin, y);
+                    doc.text(project.title, margin + 4, y);
                     y += sp.line;
-
-                    // Date
-                    doc.setFontSize(9);
-                    doc.setTextColor(...colors.lightGrey);
-                    doc.text(company.years, margin, y);
-                    y += sp.section;
 
                     // Achievements as bullet points
                     if (
@@ -233,32 +235,32 @@ function initCvExport(cvData) {
 
                         project.achievements.forEach((achievement) => {
                             checkPageBreak(8);
-                            doc.text("•", margin + 2, y);
+                            doc.text("•", margin + 6, y);
                             const lines = wrapText(
                                 achievement,
-                                contentWidth - 10,
+                                contentWidth - 14,
                                 10
                             );
                             lines.forEach((line, i) => {
                                 if (i > 0) checkPageBreak(5);
-                                doc.text(line, margin + 8, y);
+                                doc.text(line, margin + 12, y);
                                 y += sp.line;
                             });
                             y += 1;
                         });
                     } else if (project.description) {
-                        // If no achievements, show description
+                        // Description indented under team
                         doc.setFontSize(10);
                         setFont("normal");
                         doc.setTextColor(...colors.dark);
                         const descLines = wrapText(
                             project.description,
-                            contentWidth,
+                            contentWidth - 4,
                             10
                         );
                         descLines.forEach((line) => {
                             checkPageBreak(5);
-                            doc.text(line, margin, y);
+                            doc.text(line, margin + 4, y);
                             y += sp.line;
                         });
                     }
@@ -266,7 +268,7 @@ function initCvExport(cvData) {
                     y += sp.item;
                 });
 
-                y += sp.item;
+                y += sp.section;
             });
 
             y += sp.section;
