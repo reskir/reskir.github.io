@@ -6,12 +6,6 @@ description: Hello, I am Kiril Abaskin, software developer from Lithuania, Vilni
 
 <h2>I am a software developer with experience in constructing fully typed frontend and backend applications. I have developed a range of applications for industries such as e-commerce, finance, and advertising.</h2>
 
-<div class="about">
-  <div class="image">
-  {% asset me2.jpg width="300" alt="Kiril Abaskin - software engineer" %}
-  </div>
-</div>
-
 <p class="text-secondary">
 
 If you have any further questions or if there's anything else I can assist you with, feel free to let me know.
