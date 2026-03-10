@@ -36,7 +36,7 @@
                 {
                     "title": "Senior Frontend Developer within the Blog team",
                     "description": "Developed AI-powered features including automated post generation and intelligent assistants for content categorization and tagging. Elevated code quality by driving migration to TypeScript and adopting modern state management patterns. Contributed to cross-team initiatives across multiple WIX products.",
-                    "tools": "Vanilla JS, Typescript, React"
+                    "tools": "Vanilla JS, Typescript, React, Next.js, Node.js, React Query, Playwright"
                 }
             ]
         },
@@ -55,7 +55,7 @@
                     //     "Engineered a real-time chat system leveraging WebSockets for instant notifications and persistent message history",
                     //     "Architected a monorepo infrastructure using Lerna with conventional commits to ensure semantic versioning accuracy across packages"
                     // ],
-                    "tools": "React, React-Query, TypeScript, Redux, MUI, EmotionJS, Web Sockets, Lerna, Rollup, GitHub Actions, Jest"
+                    "tools": "Next.js, React, React-Query, TypeScript, Redux, MUI, EmotionJS, Web Sockets, Lerna, Rollup, GitHub Actions, Jest"
                 }
             ]
         },
